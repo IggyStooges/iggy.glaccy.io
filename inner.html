@@ -11,11 +11,11 @@
           <li><a href="information.html">информация</a></li>
           <li><a href="photos.html">фото и видео</a></li>
           <li><a href="maps.html">карта штата</a></li>
-          <li><a href="hotels.html">гостиницы</a></li>
+          <li><a href="#">гостиницы</a></li>
         </ul>
       </nav>
         <a class="main-header-logo">
-          <img src="logo.img" alt="@Логотип Седона@" width="368" height="153">
+          <img src="logo.img" href="index.html" alt="@Логотип Седона@" width="368" height="153">
         </a>
     </header>
     <main class="container-inner">
@@ -43,12 +43,17 @@
         </div>
       </section>
       <section class="variants">
-        <B>НАЙДЕНО 3</B>
-        <p>СОРТИРОВКА: 
-          <span>ПО ЦЕНЕ</span> 
-          <span>ПО ТИПУ </span>
-          <span>ПО РЕЙТИНГУ </span>
-        </p>
+       
+          <B>НАЙДЕНО 3</B>
+        <span>СОРТИРОВКА: 
+          <button>ПО ЦЕНЕ</button> 
+          <button>ПО ТИПУ </button>
+          <button>ПО РЕЙТИНГУ </button>
+        </span>
+        <div class="arrows">
+          <button class="arrows arrow-up">стрелочка вверх</button>
+          <button class="arrows arrow-down">стрелочка вниз</button>  
+        </div>
         <ul class="variants-finded">
         <li class="variats-finded-hotel">
           <div class="variants-photo">
@@ -58,7 +63,10 @@
           <p>ГОСТИНИЦА ОТ 4000 Р.</p>
           <button class="details">ПОДРОБНЕЕ</button>
           <button class="BOOK-NOW">ЗАБРОНИРОВАТЬ</button>
+          <div class="raiting">
           <p>РЕЙТИНГ: 8,5</p>
+          <span class="stars">4 звездочки</span>
+          </div>
         </li>
         <li class="variants-finded-motel">
            <div class="variants-photo">
@@ -68,7 +76,10 @@
           <p>МОТЕЛЬ ОТ 3000 Р.</p>
           <button class="details">ПОДРОБНЕЕ</button>
           <button class="BOOK-NOW">ЗАБРОНИРОВАТЬ</button>
+          <div class="raiting">
           <p>РЕЙТИНГ: 8,9</p>
+          <span class="stars">3 звездочки</span>
+          </div>
         </li>
         <li class="variants-finded-apartment">
             <div class="variants-photo">
@@ -78,7 +89,10 @@
             <p>АПАРТАМЕНТЫ ОТ 2000 Р.</p>
             <button class="details">ПОДРОБНЕЕ</button>
             <button class="BOOK-NOW">ЗАБРОНИРОВАТЬ</button>
+            <div class="raiting">
             <p>РЕЙТИНГ: 9,2</p>
+            <span class="stars">2 звездочки</span>
+            </div>
         </li>
           </ul>
       </section>
