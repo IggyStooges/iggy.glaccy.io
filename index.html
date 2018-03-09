@@ -15,7 +15,7 @@
         </ul>
       </nav>
         <a class="main-header-logo">
-          <img src="img/logo.svg" alt="@Логотип Седона@" width="138" height="70">
+          <img src="img/logo.png" alt="@Логотип Седона@" width="138" height="70">
         </a>
     </header>
     
@@ -76,35 +76,59 @@
         <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
       </section>
       <section class="map">
-        <a class="map-sedona" href="#"><img src="img/map.jpg" alt="@мост дьявола@" width="1719" height="748"></a>
+        <a class="map-sedona" href="#"><img src="img/map.jpg" alt="Седона, Коконино-Каунти, Аризона, Соединенные Штаты Америки" width="1719" height="748"></a>
       </section>
     </main>    
     <footer class="main-footer">
           <a href="#">#VISITSEDONA</a>
        <div class="footer-social">
             <ul>
-              <li><a class="social-button" href="#">twitter</a></li>
-              <li><a class="social-button" href="#">facebook</a></li>
-              <li><a class="social-button" href="#">youtube</a></li>
+                <li><a class="social-button" href="#"><span class="visually-hidden">twitter</span></a></li>
+              <li><a class="social-button" href="#"><span class="visually-hidden">facebook</span></a></li>
+              <li><a class="social-button" href="#"><span class="visually-hidden">youtube</span></a></li>
           </ul>
        </div>
           <p class="footer-copyright">
             <b>WEBSITE BY</b> 
-            <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+              <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><span class="visually-hidden">HTML Academy</span></a>
           </p>   
     </footer>
     <section class="booking-window">
-      <h3>
-            ПОИСК ГОСТИНИЫ В СЕДОНЕ
-      </h3>
-             <!-- Здесь будет форма -->
-      <p> ДАТА ЗАЕЗДА:
-        
-      </p>
-      <p> ДАТА ВЫЕЗДА:
-       
-      </p>
-      <p>ВЗРОСЛЫЕ 2 ДЕТИ 0</p>
+      <form class="booking-form" method="post" action="https://echo.htmlacademy.ru">
+        <button class="search-hotel" type="button">ПОИСК ГОСТИНИЫ В СЕДОНЕ</button>
+      <div class="booking=wrap">
+          <p>
+            <label for="date-arrival"> ДАТА ЗАЕЗДА:
+                  <input type="text" id="date-arrival" name="date-arrival" placeholder="24 апреля 2017">
+            </label>
+                    <button class="calendar-button" type="button">
+                    <img src="img/calendar.svg" alt="Календарь" width="21" height="22">
+                    </button>
+            
+          </p>
+          <p>
+            <label for="date-departure"> ДАТА ВЫЕЗДА:
+                <input type="text" id="date-departure" name="date-departure" placeholder="4 июля 2017">
+            </label>
+                   <button class="calendar-button" type="button">
+                   <img src="img/calendar.svg" alt="Календарь" width="21" height="22">
+                   </button>            
+          </p>
+          <p>
+            <label for="adults">  Взрослые:</label>
+              <button class="button-plus-minus" type="button">-</button>
+              <input type="text" id="adults" name="adults" placeholder="2">
+              <button class="button-plus-minus" type="button">+</button>
+            
+            <label for="children">  Дети:</label>
+              <button class="button-plus-minus" type="button">-</button>
+              <input type="text" id="children" name="children" placeholder="0">
+              <button class="button-plus-minus" type="button">+</button>
+            
+          </p>
+          <button class="search" type="submit">НАЙТИ</button>
+      </div>
+      </form>
     </section>    
   </body>
 </html>
