@@ -14,7 +14,7 @@
           <li><a href="#">гостиницы</a></li>
         </ul>
       </nav>
-        <a class="main-header-logo" href="index.html"><span class="visually-hidden">Ссылка на главную страницу</span>
+        <a class="main-header-logo" href="index.html">Ссылка на главную страницу
           <img src="img/logo.png" alt="Логотип Седона" width="138" height="70">
         </a>
     </header>
@@ -64,16 +64,19 @@
               </li>
           </ul>     
       </fieldset>
-      <div class="booking-options-cost"> 
-          <P>СТОИМОСТЬ В СУТКИ</P>
-            <span class="cost-range">От 0</span>
-            <span class="cost-range">До 3000</span>
-            <p><input type="range" min="0" max="3000" class="range"></p>
-            
-        </div>
-          <button class="show" type="submit">ПОКАЗАТЬ</button>
-          </form>
-      </section>
+      <fieldset class="cost-per-day">
+        <legend>СТОИМОСТЬ В СУТКИ</legend>
+          <label class="cost-range" for="min-cost-range">
+            <input type="number" name="min-cost-range" id="min-cost-range" placeholder="От 0">
+          </label>
+          <label class="cost-range" for="max-cost-range"> 
+            <input type="number" name="max-cost-range" id="max-cost-range" placeholder="До 3000">
+          </label>
+          <p><input type="range" min="0" max="3000" class="range"></p>
+        <button class="show" type="submit">ПОКАЗАТЬ</button>
+      </fieldset>
+    </form>
+    </section>
       <section class="variants">
          <form class="booking-form" method="post" action="https://echo.htmlacademy.ru">  
           <B>НАЙДЕНО 3</B>
@@ -132,13 +135,13 @@
         </form>  
       </section>
     </main>
-       <footer class="main-footer">
+    <footer class="main-footer">
           <a href="#">#VISITSEDONA</a>
        <div class="footer-social">
             <ul>
-                <li><a class="social-button" href="#"><span class="visually-hidden">twitter</span></a></li>
-              <li><a class="social-button" href="#"><span class="visually-hidden">facebook</span></a></li>
-              <li><a class="social-button" href="#"><span class="visually-hidden">youtube</span></a></li>
+                <li><a class="social-button" href="#">twitter</a></li>
+              <li><a class="social-button" href="#">facebook</a></li>
+              <li><a class="social-button" href="#">youtube</a></li>
           </ul>
        </div>
           <p class="footer-copyright">
