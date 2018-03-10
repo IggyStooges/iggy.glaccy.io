@@ -24,7 +24,7 @@
        <img src="img/background.jpg" alt="@Welcome to the gorgoeus SEDONA Because the Grand Canyon sucks!" width="1200" height="564">
       </section>
       <section class="causes">
-        <b>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</b>
+        <p><b>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</b></p>
           <p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ ЧЕМ ГРАНД КАНЬОН!</p>
             <div class="cause cause-realcity">
               <h3>НАСТОЯЩИЙ ГОРОДОК</h3> 
@@ -95,26 +95,25 @@
     </footer>
     <section class="booking-window">
       <form class="booking-form" method="post" action="https://echo.htmlacademy.ru">
-        <fieldset class="search-form-fieldset">
-        <legend>  <button class="search-hotel" type="button">ПОИСК ГОСТИНИЫ В СЕДОНЕ</button></legend>
+    <button class="search-hotel" type="button">ПОИСК ГОСТИНИЫ В СЕДОНЕ</button>
       <div class="booking=wrap">
-            <p>
+        <fieldset class="date-arrival-fieldset">
               <label for="date-arrival-field"> ДАТА ЗАЕЗДА:
                   <input type="text" id="date-arrival-field" name="date-arrival" placeholder="24 апреля 2017">
               </label>
                     <button class="calendar-button" type="button">
                     <img src="img/calendar.svg" alt="Календарь" width="21" height="22">
                     </button>
-          </p>
-          <p>
+        </fieldset>
+        <fieldset class="date-departure-fieldset">
             <label for="date-departure-field"> ДАТА ВЫЕЗДА:
                 <input type="text" id="date-departure-field" name="date-departure" placeholder="4 июля 2017">
             </label>
                    <button class="calendar-button" type="button">
                    <img src="img/calendar.svg" alt="Календарь" width="21" height="22">
                    </button>
-          </p>
-          <p>
+          </fieldset>
+          <fieldset class="number-of-people-fieldset">
             <label for="adults">  Взрослые:</label>
               <button class="button-plus-minus" type="button">-</button>
               <input type="number" id="adults" name="adults" placeholder="2">
@@ -123,12 +122,11 @@
               <button class="button-plus-minus" type="button">-</button>
               <input type="number" id="children" name="children" placeholder="0">
               <button class="button-plus-minus" type="button">+</button>
-            </p>
+            </fieldset>
           
           <button class="search" type="submit">НАЙТИ</button>
-          
+        
       </div>
-    </fieldset>
       </form>
     </section>    
   </body>
