@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color:rgb(255, 255, 255);
+    color:rgba(51, 51, 51, 1);
+}
+
+a {
+    text-decoration: none;
+}
+.main-header {
+    width:100%;
+    height:564px;
+    background-image: url("background.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.site-navigation {
+    list-style: none;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.causes p:first-child {
+    font-weight:bold;
+    font-size:21px;
+    line-height: 26px;
+    
+}
+
+.cause h3 {
+    font-weight:bold;
+    font-size:21px;
+}
+
+.cause-realcity, .cause-bridge {
+    background-color: rgb(129,179,210);
+    color:rgb(255, 255, 255);
+}
+
+.cause-area, .cause-road, .cause-tourists {
+    background-color: rgb(238,238,238);
+}
+
+.facilities {
+    background-color: rgb(255,255,255);
+    list-style: none;
+    color:rgb(0, 0, 0);
+}
+
+.booking h2 {
+    font-weight:bold;
+    font-size:30px;
+    line-height:36px;
+}
+
+.booking p{
+    line-height:24px;
+}
+
+.search-hotel {
+     background-color: rgb(118,99,87);
+     border:none;
+}
+
+.arrival-fieldset {
+     border:none;
+}
+
+
+.departure-fieldset {
+     border:none;
+}
+
+
+.people-fieldset {
+     border:none;
+}
+
+input[type="number"] {
+    background-color: rgb(242, 242, 242);
+    border:none;
+}
+
+input[type="text"] {
+    background-color: rgb(242, 242, 242);
+    border:none;
+}
+
+.search {
+    background-color:rgb(129, 179, 210);
+    color:rgb(255, 255, 255);
+    border:none;
+}
+
+.button-plus-minus {
+    background-color: rgb(242, 242, 242);
+     border:none;
+}
+
+.calendar-button {
+    background-color: rgb(242, 242, 242);
+    border:none;
+}
+
+.social-list {
+    list-style: none;
+}
+
+.social-list li {
+     background-color: rgb(129, 179, 210);
+}
+
+.visit {
+     font-size: 21px;
+     line-height: 26px;
+     font-weight: bold;
+     color: rgb(0, 0, 0);
+}
+
+.footer-copyright {
+     line-height: 26px;
+}
