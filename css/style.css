@@ -107,6 +107,12 @@ a {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.booking-wrap {
+    width: 568px;
+    height: 395px;
+    box-shadow: 0 0 5px 5px #ededed;
+}
+
 .arrival-fieldset {
   border: none;
 }
@@ -402,6 +408,7 @@ a {
   width: 110px;
   font-weight: bold;
   border: none;
+  text-align: center;
   background-color: rgb(129, 179, 210);
   color: rgb(255, 255, 255);
 }
@@ -420,6 +427,7 @@ a {
   height: 27px;
   width: 142px;
   font-weight: bold;
+  text-align: center;
   border: none;
   background-color: rgb(118, 99, 87);
   color: rgb(255, 255, 255);
