@@ -8,13 +8,14 @@ body {
     text-transform: uppercase;
     background-color:rgb(255, 255, 255);
     color:rgba(51, 51, 51, 1);
+    text-align:center;
 }
 
 a {
     text-decoration: none;
 }
 .main-header {
-    width:100%;
+    width:auto;
     height:564px;
     background-image: url("background.jpg");
     background-position: top center;
@@ -25,6 +26,7 @@ a {
     list-style: none;
     line-height: 26px;
     font-weight: bold;
+    background-color:rgb(255,255,255);
 }
 
 .causes p:first-child {
@@ -83,12 +85,12 @@ a {
      border:none;
 }
 
-input[type="number"] {
+.booking-window input[type="number"] {
     background-color: rgb(242, 242, 242);
     border:none;
 }
 
-input[type="text"] {
+.booking-window input[type="text"] {
     background-color: rgb(242, 242, 242);
     border:none;
 }
@@ -100,7 +102,7 @@ input[type="text"] {
 }
 
 .button-plus-minus {
-    background-color: rgb(242, 242, 242);
+     background-color: rgb(242, 242, 242);
      border:none;
 }
 
@@ -126,4 +128,85 @@ input[type="text"] {
 
 .footer-copyright {
      line-height: 26px;
+}
+
+.inner-page {
+    height:933px;
+}
+
+.inner-header {
+    width:100%;
+    height:56px;
+}
+
+.booking-options {
+     color: rgb(255, 255, 255);
+     background-image: url("filterbackground.jpg");
+     background-position: top center;
+     background-repeat: no-repeat;
+}
+
+.booking-legend {
+     font-size:16px;
+     font-weight:bold;
+}
+.booking-form fieldset {
+     border:none;
+     text-align: left;
+}
+
+.option-list {
+    list-style: none;
+}
+
+.show {
+    border:2px solid white;
+    background-color:rgba(255,255,255,0);
+    color:inherit;
+}
+
+.cost-per-day input[type="number"] {
+    border:2px solid white;
+    background-color:rgba(255,255,255,0);
+    color:inherit;
+}
+
+.booking-form b {
+    font-size:21px;
+}
+
+.sorting-button {
+    border:none;
+    background-color:rgba(255,255,255,0);
+    font-size:12px;
+    line-height:18px;
+}
+
+.variants-finded {
+    list-style: none;
+}
+
+.variants-finded h3 {
+    font-size:21px;
+    line-height:26px;
+}
+
+.variants-finded li {
+    text-align:left;
+}
+
+.raiting {
+     text-align:right;
+}
+
+.details {
+    border:none;
+    background-color:rgb(129,179,210);
+    color:rgb(255,255,255);
+}
+
+.book-now {
+    border:none;
+    background-color:rgb(118,99,87);
+    color:rgb(255,255,255);
 }

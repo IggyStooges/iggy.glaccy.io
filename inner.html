@@ -8,8 +8,8 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="inner-page">
-    <header class="main-header">
-      <nav class="main-navigation">
+    <header class="inner-header">
+      <nav class="inner-navigation">
         <ul class="site-navigation">
           <li><a href="information.html">информация</a></li>
           <li><a href="photos.html">фото и видео</a></li>
@@ -22,12 +22,10 @@
         </a>
     </header>
     <main class="container-inner">
-    <img src="img/filterbackground.jpg" alt="ФОТО СЕДОНЫ" width="1200" height="562">
-     
       <section class="booking-options">
       <form class="booking-form" method="get" action="https://echo.htmlacademy.ru">
       <fieldset class="booking-options-infrastructure">
-          <legend>ИНФРАСТУКТУРА</legend>
+          <legend class="booking-legend">ИНФРАСТУКТУРА</legend>
             <ul class="option-list">
               <li>
                 <label for="pool">БАССЕЙН
@@ -48,7 +46,7 @@
         
       </fieldset>
       <fieldset class="booking-options-type">
-          <legend>ТИП ЖИЛЬЯ</legend>
+          <legend class="booking-legend">ТИП ЖИЛЬЯ</legend>
             <ul class="option-list">
               <li>
                 <label for="hotel">Гостиница
@@ -68,7 +66,7 @@
           </ul>     
       </fieldset>
       <fieldset class="cost-per-day">
-        <legend>СТОИМОСТЬ В СУТКИ</legend>
+        <legend class="booking-legend">СТОИМОСТЬ В СУТКИ</legend>
           <label class="cost-range" for="min-cost-range">
               От 
             <input type="number" name="min-cost-range" id="min-cost-range" min="0" placeholder="0">
@@ -104,11 +102,11 @@
           <h3>AMARA RESORT & SPA</h3>
             <p>ГОСТИНИЦА ОТ 4000 Р.</p>
             <button class="details" type="button">ПОДРОБНЕЕ</button>
-            <button class="BOOK-NOW" type="submit">ЗАБРОНИРОВАТЬ</button>
-            <div class="raiting">
+            <button class="book-now" type="submit">ЗАБРОНИРОВАТЬ</button>
+          <div class="raiting">
               <p>РЕЙТИНГ: 8,5</p>
               <span class="stars">4 звездочки</span>
-            </div>
+          </div>
         </li>
         <li class="variants-finded-motel">
            <div class="variants-photo">
@@ -117,7 +115,7 @@
           <h3>DESERT QUAIL INN</h3>
           <p>МОТЕЛЬ ОТ 3000 Р.</p>
           <button class="details" type="button">ПОДРОБНЕЕ</button>
-          <button class="BOOK-NOW" type="submit">ЗАБРОНИРОВАТЬ</button>
+          <button class="book-now" type="submit">ЗАБРОНИРОВАТЬ</button>
           <div class="raiting">
           <p>РЕЙТИНГ: 8,9</p>
           <span class="stars">3 звездочки</span>
@@ -130,7 +128,7 @@
             <h3>VILLAS AT POCO DIABLO</h3>
             <p>АПАРТАМЕНТЫ ОТ 2000 Р.</p>
             <button class="details" type="button">ПОДРОБНЕЕ</button>
-            <button class="BOOK-NOW" type="submit">ЗАБРОНИРОВАТЬ</button>
+            <button class="book-now" type="submit">ЗАБРОНИРОВАТЬ</button>
             <div class="raiting">
             <p>РЕЙТИНГ: 9,2</p>
             <span class="stars">2 звездочки</span>
@@ -140,17 +138,17 @@
         </form>  
       </section>
     </main>
-    <footer class="main-footer">
-          <a href="#">#VISITSEDONA</a>
+    <footer class="inner-footer">
+          <a href="#" class="visit">#VISITSEDONA</a>
        <div class="footer-social">
-            <ul>
-                <li><a class="social-button" href="#">twitter</a></li>
+            <ul class="social-list">
+              <li><a class="social-button" href="#">twitter</a></li>
               <li><a class="social-button" href="#">facebook</a></li>
               <li><a class="social-button" href="#">youtube</a></li>
           </ul>
        </div>
           <p class="footer-copyright">
-            <b>WEBSITE BY</b> 
+            WEBSITE BY
               <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"><span class="visually-hidden">HTML Academy</span></a>
           </p>   
     </footer>
