@@ -1,6 +1,9 @@
 body {
+  width:1200px;
   margin: 0;
   padding: 0;
+  padding-right: 40px;
+    padding-left:40px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
@@ -15,14 +18,19 @@ a {
 }
 
 .main-header {
-  width: auto;
-  height: 564px;
+  width: 1200px;
+  min-height:  564px;
+    margin-bottom:65px;
+    display: flex;
+    flex-direction: column;
   background-image: url("../img/background.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
 
+
 .site-navigation {
+    margin:0;
   list-style: none;
   line-height: 26px;
   font-weight: bold;
@@ -46,43 +54,140 @@ a {
   color: rgb(118, 99, 87);
 }
 
+.causes p {
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .causes p:first-child {
+    width:450px;
+    margin-bottom: 40px;
   font-weight: bold;
   font-size: 21px;
-  line-height: 26px;
+  line-height: 26px; 
+}
+
+.causes .container {
+    margin-bottom: 60px;
 }
 
 .cause h3 {
   font-weight: bold;
   font-size: 21px;
 }
-
+.causes h3 {
+    padding:0;
+    margin:0;
+}
 .cause-realcity,
 .cause-bridge {
+    padding:0;
+    margin:0;
   background-color: rgb(129, 179, 210);
   color: rgb(255, 255, 255);
 }
 
+
+.causes-wrapping{
+    display:flex;
+    width:auto;
+    padding:0;
+    margin:0;
+}
+.causes-last-wrapping{
+    display:flex;
+    width:auto;
+    padding:0;
+    margin:0;
+    justify-content:space-around;
+    background-color: rgb(238, 238, 238);
+}
+}
+
+.cause-realcity .photo-town {
+    width:800px;
+    height: 256px;
+    padding:0;
+    margin:0;
+}
+
+.causes-flex-element {
+    width:400px;
+    box-sizing:content-box;
+    padding:0;
+    margin:0;
+    padding-left:auto;
+    padding-right:auto;
+    padding-top:50px;
+}
+
+.cause-realcity p,
+.cause-bridge p,
+.cause-area p,
+.cause-road p,
+.cause-tourists p{
+    width: 280px;   
+    padding:0;
+    margin:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.cause-realcity span,
+.cause-bridge span,
+.cause-area span,
+.cause-road span,
+.cause-tourists span
+{
+    display:block; 
+    padding:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
 .cause-area,
 .cause-road,
 .cause-tourists {
-  background-color: rgb(238, 238, 238);
+    margin-bottom:65px;
+
 }
 
 .facilities {
+    display:flex;
+    justify-content: space-around;
+    padding:0;
+    margin:0;
+    padding-top:56px;
+    margin-bottom:88px;
   background-color: rgb(255, 255, 255);
   list-style: none;
   color: rgb(0, 0, 0);
 }
 
+.booking {
+    margin: 0;
+    padding-right:auto;
+    padding-left:auto;
+}
 .booking h2 {
+    margin: 0;
+    padding:0;
+    margin-top:58px;
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
 }
 
 .booking p {
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom:140px;
   line-height: 24px;
+    width:435px;
 }
 
 .search-hotel {
@@ -442,3 +547,4 @@ a {
   background-color: rgb(80, 62, 51);
   color: rgba(255, 255, 255, 0.3);
 }
+
