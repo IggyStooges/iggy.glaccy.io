@@ -25,7 +25,7 @@
   </header>
   <main class="container-inner">
     <section class="booking-options">
-      <form class="booking-form" method="get" action="https://echo.htmlacademy.ru">
+      <div class="booking-form">
         <div class="booking-options-container">
           <div class="booking-infrastructure-wrap">
             <fieldset class="booking-options-infrastructure">
@@ -88,7 +88,7 @@
             <button class="show" type="submit">ПОКАЗАТЬ</button>
           </div>
         </div>
-      </form>
+      </div>
 
     </section>
     <section class="variants">
@@ -97,11 +97,11 @@
           <div class="sorting">
             <B>НАЙДЕНО: 3</B>
             <span class="sort">СОРТИРОВКА:</span>
-            <span class="sorting-buttons">
+            <div class="sorting-buttons">
                 <a href="#" class="sorting-button">ПО ЦЕНЕ</a>
                 <a href="#" class="sorting-button">ПО ТИПУ </a>
                 <a href="#" class="sorting-button">ПО РЕЙТИНГУ </a>
-          </span>
+          </div>
           </div>
           <div class="arrows">
             <button class="arrow-up visually-hidden" type="button"><span class="invisibly-hiiden">Сортировка от большего к меньшему</span></button>
@@ -109,8 +109,7 @@
           </div>
         </div>
         <ul class="variants-finded">
-          <li class="variats-finded-hotel">
-            <div class="variants-finded-wrap">
+          <li class="variants-finded-hotel">
               <div class="variants-photo">
                 <img src="img/hotel.jpg" alt="гостиница" width="135" height="90">
               </div>
@@ -124,10 +123,8 @@
                 <p>РЕЙТИНГ: 8,5</p>
                 <span class="stars">4 звездочки</span>
               </div>
-            </div>
           </li>
           <li class="variants-finded-motel">
-            <div class="variants-finded-wrap">
               <div class="variants-photo">
                 <img src="img/motel.jpg" alt="@мотель@" width="135" height="90">
               </div>
@@ -141,10 +138,8 @@
                 <p>РЕЙТИНГ: 8,9</p>
                 <span class="stars">3 звездочки</span>
               </div>
-            </div>
           </li>
           <li class="variants-finded-apartment">
-            <div class="variants-finded-wrap">
               <div class="variants-photo">
                 <img src="img/apartment.jpg" alt="@апартаменты@" width="135" height="90">
               </div>
@@ -158,7 +153,6 @@
                 <p>РЕЙТИНГ: 9,2</p>
                 <span class="stars">2 звездочки</span>
               </div>
-            </div>
           </li>
         </ul>
       </form>

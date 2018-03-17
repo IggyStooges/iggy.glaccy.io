@@ -1,6 +1,6 @@
 body {
   width: 1200px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   padding-right: 40px;
   padding-left: 40px;
@@ -18,6 +18,7 @@ a {
 }
 
 .main-header {
+  position: relative;
   width: 1200px;
   min-height: 564px;
   margin: 0;
@@ -29,7 +30,13 @@ a {
   background-repeat: no-repeat;
 }
 
-.header-logo {
+.header-logo,
+.main-header-logo{
+    position: absolute;
+top: 0;
+left: 0;
+right: 0;
+margin: auto;
   font-size: 0;
   line-height: 0;
   width: 138;
@@ -38,9 +45,9 @@ a {
 
 .site-navigation {
   display: flex;
+    justify-content: space-between;
   margin: 0;
-  padding: 0;
-  padding-left: 70px;
+  padding: 0 73px;
   list-style: none;
   line-height: 26px;
   font-weight: bold;
@@ -141,8 +148,6 @@ a {
   box-sizing: content-box;
   padding: 0;
   margin: 0;
-  padding-left: auto;
-  padding-right: auto;
   padding-top: 50px;
 }
 
@@ -209,8 +214,6 @@ a {
   padding-top: 60px;
   box-sizing: border-box;
   margin: 0;
-  padding-right: auto;
-  padding-left: auto;
 }
 
 .booking h2 {
@@ -369,16 +372,17 @@ a {
 
 .main-footer,
 .inner-footer {
-  padding: 50px 0;
-  margin: 0;
-  margin-left: 130px;
-  margin-right: 100px;
+
 }
 
 .footer-wrap {
   display: flex;
   padding: 0;
   margin: 0;
+      padding: 50px 0;
+  margin: 0;
+  margin-left: 130px;
+  margin-right: 100px;
 }
 
 .footer-social {
@@ -501,7 +505,7 @@ a {
   margin: 0;
   padding: 0;
   margin-left: 70px;
-  margin-right: auto;
+  margin-right: 70px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -586,6 +590,8 @@ a {
     align-items: baseline;
   margin: 0;
   padding: 0;
+    margin-left: 73px;
+    margin-right: 73px;
 }
 
 .sorting {
@@ -594,7 +600,7 @@ a {
   padding: 0;
   padding-top: 35px;
   padding-bottom: 35px;
-  margin-left: 73px;
+  
 }
 
 .sorting b {
@@ -635,8 +641,8 @@ a {
 .arrows {
   margin: 0;
   padding: 0;
-  width: 600px;
-  padding-left: 490px;
+  width: 60px;
+  margin-left: auto;
 }
 
 .arrows .visually-hidden {
@@ -666,6 +672,7 @@ a {
   padding: 0;
   list-style: none;
   margin-left: 73px;
+    margin-right: 73px;
 }
 
 .variants-finded h3 {
@@ -673,7 +680,7 @@ a {
   line-height: 26px;
 }
 
-.variants-finded-wrap {
+.variants-finded li {
   display: flex;
   margin: 0;
   padding: 30px 0 0 0;
@@ -682,7 +689,6 @@ a {
 .variants-finded-container {
   margin: 0;
   padding: 0;
-  margin-right: 520px;
 }
 .variants-finded-container h3 {
       margin: 0;
@@ -708,6 +714,7 @@ a {
 
 .raiting {
   text-align: right;
+    margin-left:auto;
 }
 
 .details {
