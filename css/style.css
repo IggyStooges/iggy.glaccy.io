@@ -1,5 +1,7 @@
 body {
+    position:relative;
   width: 1200px;
+    min-width:968px;
   margin: 0 auto;
   padding: 0;
   padding-right: 40px;
@@ -51,6 +53,7 @@ a {
 
 .site-navigation {
   display: flex;
+    flex-wrap:wrap;
   margin: 0;
   padding: 0 73px;
   list-style: none;
@@ -62,7 +65,7 @@ a {
 .site-navigation li {
     margin: 0;
     padding: 0;
-    padding-top:25px;
+    padding-top:27px;
     padding-bottom: 24px;
 }
 
@@ -200,6 +203,10 @@ a {
   margin-right: auto;
 }
 
+.cause-bridge p {
+  width: 305px;
+}
+
 .cause-realcity span,
 .cause-bridge span,
 .cause-area span,
@@ -212,21 +219,37 @@ a {
   margin-top: 23px;
   margin-bottom: 21px;
 }
-
+.cause-bridge h3 {
+    width:157px;
+    margin:0;
+    padding:0;
+    margin-top:-2px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .cause-area,
 .cause-road,
 .cause-tourists {
-  min-height: 256px;
+    padding-bottom: 60px;
   background-color: rgb(238, 238, 238);
+}
+
+.cause-area h3,
+.cause-road h3,
+.cause-tourists h3{
+  width:120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .facilities {
   display: flex;
   justify-content: space-around;
-    align-content: center;
+  align-content: center;
   padding: 0;
   margin: 0;
   padding-top: 60px;
+  padding-bottom:82px;
   background-color: rgb(255, 255, 255);
   list-style: none;
   color: rgb(0, 0, 0);
@@ -260,7 +283,7 @@ a {
 }
 .booking {
   min-height: 291px;
-  padding-top: 60px;
+  padding-top: 50px;
   box-sizing: border-box;
   margin: 0;
 }
@@ -268,6 +291,7 @@ a {
 .booking h2 {
   margin: 0;
   padding: 0;
+     padding-bottom: 10px;
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
@@ -276,10 +300,15 @@ a {
 .booking p {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
   padding-bottom: 0px;
   line-height: 24px;
   width: 440px;
+}
+
+.booking-window {
+    position: absolute;
+    top:2083px;
+    left:356px;
 }
 
 .search-hotel {
@@ -306,59 +335,82 @@ a {
 
 .booking-wrap {
   width: 568px;
+    box-sizing: border-box;
   min-height: 395px;
-  padding: 0;
+  padding-left: 0;
+    padding-right: 55px;
+    padding-top: 55px;
+    padding-bottom: 55px;
   margin: 0;
   margin-right: auto;
   margin-left: auto;
-  box-shadow: 0 0 15px -5px #ededed;
+    background-color:#ffffff;
+  box-shadow: 0 0 20px 0 #dfdfdf;
 }
 
 .arrival-fieldset {
+    padding: 0;
+    margin: 0;
+    margin-bottom:29px;
+    width:455px;
   border: none;
 }
 
 .departure-fieldset {
-  border: none;
+    padding: 0;
+     margin: 0;
+    margin-bottom:29px;
+    width:460px;
 }
 
 .people-fieldset {
+    padding: 0;
+    margin: 0;
+    width:460px;
   border: none;
 }
 
-.booking-window input {
+.booking-form-index label {
+    padding:0;
+    margin:0;
+    margin-right:20px;
+    font-size:14px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.booking-form-index input {
   line-height: 26px;
   font-weight: bold;
 }
 
-.booking-window input[type="number"] {
+.booking-form-index input[type="number"] {
+    box-sizing: border-box;
+    margin:0;
+    padding-left:10px;
   width: 75px;
   height: 38px;
   background-color: rgb(242, 242, 242);
   border: none;
 }
 
-.booking-window input[type="text"] {
-  width: 346px;
+.booking-form-index input[type="text"] {
+    box-sizing: border-box;
+    margin:0;
+    padding-left:10px;
+  width: 307px;
   height: 38px;
   background-color: rgb(242, 242, 242);
   border: none;
 }
 
-.booking-window input:hover {
+.booking-form-index input:hover {
   background-color: rgb(235, 235, 235);
 }
 
-.booking-window input:focus {
-  width: 342px;
-  height: 34px;
+.booking-form-index input:focus {
   border: 2px solid rgb(229, 229, 229);
   background-color: rgb(255, 255, 255);
-}
-
-.booking-window input[type="number"]:focus {
-  width: 71px;
-  height: 34px;
 }
 
 .search {
@@ -402,32 +454,36 @@ a {
 }
 
 .calendar-button {
-  background-color: rgb(242, 242, 242);
-  border: none;
+    display:inline-block;
+    vertical-align: middle;
+    width:21px;
+    height: 22px;
+    margin-left:-30px;
+    background-color: white;    
 }
 
-.calendar-button img {
-  color: rgb(202, 202, 202);
+.calendar-button:hover path,
+.calendar-button:focus path{
+  fill: #000000;
 }
 
-.calendar-button img:hover,
-.calendar-button img:focus {
-  color: rgb(0, 0, 0);
-}
-
-.calendar-button img:active {
-  color: rgb(129, 179, 210);
+.calendar-button:active path {
+  fill: rgb(129, 179, 210);
 }
 
 
 .footer-wrap {
   display: flex;
-  padding: 0;
+    align-items: center;
+  padding: 35px 100px 40px 125px;
   margin: 0;
-      padding: 50px 0;
-  margin: 0;
-  margin-left: 130px;
-  margin-right: 100px;
+ margin-top:-120px; 
+    margin-bottom: auto;
+}
+
+.main-footer {
+    background-color:rgba(255,255,255);
+    opacity: 0.9;
 }
 
 .footer-social {
@@ -437,39 +493,29 @@ a {
 
 .social-list {
   display: flex;
-  width: 150px;
+    flex-wrap: wrap;
+    align-items: center;
+  width: 160px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .social-list li {
-  width: 46px;
+ margin-right: 6px;
+}
+
+
+.social-button { 
+    width: 46px;
   height: 48px;
-  margin-right: 6px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    flex-wrap: wrap;
   background-color: rgb(129, 179, 210);
-}
-
-.twitter-btn {
-  background-image: url("../img/twitter.svg");
-}
-
-.fb-btn {
-  background-image: url("../img/fb-icon.svg");
-}
-
-.yotube-btn {
-  background-image: url("../img/youtube.svg");
-}
-
-.social-button {
-  display: block;
-  height: 100%;
-  width: 100%;
   font-size: 0px;
   line-height: 0px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .social-button:hover,
@@ -478,41 +524,47 @@ a {
 }
 
 .social-button:active {
-  opacity: 0.3;
-  background-color: rgb(84, 150, 189);
+  background-color: #5496bd;
+}
+
+.social-button:active path{
+  opacity:0.3;
 }
 
 .footer-copyright {
   display: flex;
-  width: 215px;
+  flex-wrap:wrap;
+     justify-content: space-between;
+  align-items: center;
+  width: 197px;
   margin: 0;
   padding: 0;
-  justify-content: space-around;
-  align-items: center;
+ margin-left:auto;
   font-size: 14px;
   line-height: 41px;
 }
 
 .button-academy {
   width: 115px;
-  height: 41px;
+  height: 40px;
   font-size: 0;
   line-height: 0;
-  background-image: url("../img/logo-htmlacademy.svg");
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
-.button-academy:hover,
-.button-academy:focus {}
+.button-academy:hover path,
+.button-academy:focus path{
+    fill:#81b3d2;
+}
 
-.button-academy:active {}
+.button-academy:active path{
+    fill:#bdbbbc;
+}
 
 .visit {
   width: 150px;
   padding: 0;
   margin: 0;
-  margin-right: 255px;
+  margin-right: 250px;
   text-align: center;
   font-size: 21px;
   line-height: 26px;
@@ -520,10 +572,6 @@ a {
   color: rgb(0, 0, 0);
 }
 
-.footer-copyright {
-  margin-left: auto;
-  line-height: 26px;
-}
 
 .inner-page {
   min-height: 933px;
@@ -585,14 +633,12 @@ a {
 
 .booking-form fieldset {
   margin: 0;
-  padding: 0;
   border: none;
   text-align: left;
 }
 
 .option-list {
   margin: 0;
-  padding: 0;
   list-style: none;
 }
 
