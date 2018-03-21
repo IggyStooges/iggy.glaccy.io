@@ -1,7 +1,7 @@
 body {
-    position:relative;
+  position: relative;
   width: 1200px;
-    min-width:968px;
+  min-width: 968px;
   margin: 0 auto;
   padding: 0;
   padding-right: 40px;
@@ -35,8 +35,8 @@ a {
 
 .header-logo,
 .main-header-logo {
-   position: absolute;
-   top: 0;
+  position: absolute;
+  top: 0;
   left: 531px;
   font-size: 0;
   line-height: 0;
@@ -45,42 +45,41 @@ a {
 }
 
 .main-navigation,
-.inner-navigation{
+.inner-navigation {
   margin: 0;
   padding: 0;
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .site-navigation {
   display: flex;
-    flex-wrap:wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0 73px;
   list-style: none;
   line-height: 0;
   font-weight: bold;
-  
 }
 
 .site-navigation li {
-    margin: 0;
-    padding: 0;
-    padding-top:27px;
-    padding-bottom: 24px;
+  margin: 0;
+  padding: 0;
+  padding-top: 27px;
+  padding-bottom: 24px;
 }
 
 .site-navigation li:first-child {
-    margin-right:147px;
+  margin-right: 147px;
   text-align: left;
 }
 
-.site-navigation li:nth-child(2){
-  margin-right:388px;
+.site-navigation li:nth-child(2) {
+  margin-right: 388px;
   text-align: left;
 }
 
-.site-navigation li:nth-child(3){
-    margin-right:162px;
+.site-navigation li:nth-child(3) {
+  margin-right: 162px;
   text-align: right;
 }
 
@@ -132,8 +131,9 @@ a {
 }
 
 .container p:nth-child(2) {
-    padding-bottom:53px;
+  padding-bottom: 53px;
 }
+
 .cause h3 {
   font-weight: bold;
   font-size: 21px;
@@ -184,11 +184,11 @@ a {
 }
 
 .cause-realcity h3 {
-    width: 130px;
-    margin:0;
-    padding:0;
-    margin-left:auto;
-    margin-right: auto;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cause-realcity p,
@@ -219,27 +219,29 @@ a {
   margin-top: 23px;
   margin-bottom: 21px;
 }
+
 .cause-bridge h3 {
-    width:157px;
-    margin:0;
-    padding:0;
-    margin-top:-2px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 157px;
+  margin: 0;
+  padding: 0;
+  margin-top: -2px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .cause-area,
 .cause-road,
 .cause-tourists {
-    padding-bottom: 60px;
+  padding-bottom: 60px;
   background-color: rgb(238, 238, 238);
 }
 
 .cause-area h3,
 .cause-road h3,
-.cause-tourists h3{
-  width:120px;
-    margin-left: auto;
-    margin-right: auto;
+.cause-tourists h3 {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .facilities {
@@ -249,15 +251,14 @@ a {
   padding: 0;
   margin: 0;
   padding-top: 60px;
-  padding-bottom:82px;
+  padding-bottom: 82px;
   background-color: rgb(255, 255, 255);
   list-style: none;
   color: rgb(0, 0, 0);
 }
 
-
-.facilities li{
-  width:400px;
+.facilities li {
+  width: 400px;
 }
 
 .facilities img {
@@ -276,11 +277,13 @@ a {
 }
 
 .food p {
-    width: 285px;
+  width: 285px;
 }
+
 .souvenirs img {
-    margin-top:-4px;
+  margin-top: -4px;
 }
+
 .booking {
   min-height: 291px;
   padding-top: 50px;
@@ -291,7 +294,7 @@ a {
 .booking h2 {
   margin: 0;
   padding: 0;
-     padding-bottom: 10px;
+  padding-bottom: 10px;
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
@@ -306,9 +309,9 @@ a {
 }
 
 .booking-window {
-    position: absolute;
-    top:2083px;
-    left:356px;
+  position: absolute;
+  top: 2083px;
+  left: 356px;
 }
 
 .search-hotel {
@@ -335,48 +338,59 @@ a {
 
 .booking-wrap {
   width: 568px;
-    box-sizing: border-box;
+  box-sizing: border-box;
   min-height: 395px;
-  padding-left: 0;
-    padding-right: 55px;
-    padding-top: 55px;
-    padding-bottom: 55px;
+  padding: 0;
+  padding-top: 55px;
+  padding-bottom: 55px;
   margin: 0;
-  margin-right: auto;
-  margin-left: auto;
-    background-color:#ffffff;
+  background-color: #ffffff;
   box-shadow: 0 0 20px 0 #dfdfdf;
 }
 
 .arrival-fieldset {
-    padding: 0;
-    margin: 0;
-    margin-bottom:29px;
-    width:455px;
+  width: 460px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 29px;
   border: none;
 }
 
 .departure-fieldset {
-    padding: 0;
-     margin: 0;
-    margin-bottom:29px;
-    width:460px;
+  width: 460px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 29px;
+    border:none;
 }
 
 .people-fieldset {
-    padding: 0;
-    margin: 0;
-    width:460px;
+  width: 460px;
+  padding: 0;
+  margin: 0;
   border: none;
+    margin-bottom: 55px;
+}
+
+.booking-form-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.booking-form-index fieldset {
+  display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .booking-form-index label {
-    padding:0;
-    margin:0;
-    margin-right:20px;
-    font-size:14px;
-    line-height: 26px;
-    font-weight: bold;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
 }
 
 .booking-form-index input {
@@ -384,22 +398,27 @@ a {
   font-weight: bold;
 }
 
+.people-wrap{
+    display: flex;
+    justify-content: center;
+}
+
 .booking-form-index input[type="number"] {
-    box-sizing: border-box;
-    margin:0;
-    padding-left:10px;
-  width: 75px;
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 10px;
+  width: 38px;
   height: 38px;
   background-color: rgb(242, 242, 242);
   border: none;
 }
 
 .booking-form-index input[type="text"] {
-    box-sizing: border-box;
-    margin:0;
-    padding-left:10px;
-  width: 307px;
-  height: 38px;
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 15px;
+  width: 346px;
+  min-height: 38px;
   background-color: rgb(242, 242, 242);
   border: none;
 }
@@ -434,9 +453,11 @@ a {
 }
 
 .button-plus-minus {
-  width: 39px;
+  width: 38px;
   height: 38px;
-  font-size: 14px;
+  font-size: 25px;
+  margin:0;
+  padding:0;
   font-weight: bold;
   line-height: 26px;
   color: rgb(169, 169, 169);
@@ -454,16 +475,15 @@ a {
 }
 
 .calendar-button {
-    display:inline-block;
-    vertical-align: middle;
-    width:21px;
-    height: 22px;
-    margin-left:-30px;
-    background-color: white;    
+  display: inline-block;
+  vertical-align: middle;
+  width: 21px;
+  height: 22px;
+  margin-left: -50px;
 }
 
 .calendar-button:hover path,
-.calendar-button:focus path{
+.calendar-button:focus path {
   fill: #000000;
 }
 
@@ -471,19 +491,18 @@ a {
   fill: rgb(129, 179, 210);
 }
 
-
 .footer-wrap {
   display: flex;
-    align-items: center;
+  align-items: center;
   padding: 35px 100px 40px 125px;
   margin: 0;
- margin-top:-120px; 
-    margin-bottom: auto;
+  margin-top: -120px;
+  margin-bottom: auto;
 }
 
 .main-footer {
-    background-color:rgba(255,255,255);
-    opacity: 0.9;
+  background-color: rgba(255, 255, 255);
+  opacity: 0.9;
 }
 
 .footer-social {
@@ -493,8 +512,8 @@ a {
 
 .social-list {
   display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  flex-wrap: wrap;
+  align-items: center;
   width: 160px;
   margin: 0;
   padding: 0;
@@ -502,17 +521,16 @@ a {
 }
 
 .social-list li {
- margin-right: 6px;
+  margin-right: 6px;
 }
 
-
-.social-button { 
-    width: 46px;
+.social-button {
+  width: 46px;
   height: 48px;
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: rgb(129, 179, 210);
   font-size: 0px;
   line-height: 0px;
@@ -527,19 +545,19 @@ a {
   background-color: #5496bd;
 }
 
-.social-button:active path{
-  opacity:0.3;
+.social-button:active path {
+  opacity: 0.3;
 }
 
 .footer-copyright {
   display: flex;
-  flex-wrap:wrap;
-     justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   width: 197px;
   margin: 0;
   padding: 0;
- margin-left:auto;
+  margin-left: auto;
   font-size: 14px;
   line-height: 41px;
 }
@@ -552,12 +570,12 @@ a {
 }
 
 .button-academy:hover path,
-.button-academy:focus path{
-    fill:#81b3d2;
+.button-academy:focus path {
+  fill: #81b3d2;
 }
 
-.button-academy:active path{
-    fill:#bdbbbc;
+.button-academy:active path {
+  fill: #bdbbbc;
 }
 
 .visit {
@@ -571,7 +589,6 @@ a {
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
-
 
 .inner-page {
   min-height: 933px;
@@ -607,7 +624,6 @@ a {
   margin: 0;
   padding: 0;
   width: 241px;
-  
 }
 
 .booking-type-wrap {
@@ -678,11 +694,11 @@ a {
 
 .sorting-wrap {
   display: flex;
-    align-items: baseline;
+  align-items: baseline;
   margin: 0;
   padding: 0;
-    margin-left: 73px;
-    margin-right: 73px;
+  margin-left: 73px;
+  margin-right: 73px;
 }
 
 .sorting {
@@ -691,7 +707,6 @@ a {
   padding: 0;
   padding-top: 35px;
   padding-bottom: 35px;
-  
 }
 
 .sorting b {
@@ -763,8 +778,7 @@ a {
   padding: 0;
   list-style: none;
   margin-left: 73px;
-    margin-right: 73px;
-   
+  margin-right: 73px;
 }
 
 .variants-finded h3 {
@@ -776,19 +790,20 @@ a {
   display: flex;
   margin: 0 -73px 0 -73px;
   padding: 30px 73px 30px 73px;
-    border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .variants-finded li:first-child {
-    border-top: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 
 .variants-finded-container {
   margin: 0;
   padding: 0;
 }
+
 .variants-finded-container h3 {
-      margin: 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -811,7 +826,7 @@ a {
 
 .raiting {
   text-align: right;
-    margin-left:auto;
+  margin-left: auto;
 }
 
 .details {
