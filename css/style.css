@@ -917,6 +917,7 @@ input[type="checkbox"] + label {
   width: 34px;
   height: 10px;
   margin-left: auto;
+    margin-right: 3px;
   font-size: 0;
   line-height: 0;
 }
@@ -1026,8 +1027,50 @@ input[type="checkbox"] + label {
 }
 
 .raiting {
-  text-align: right;
-  margin-left: auto;
+    width:110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right:75px;
+    padding-top:18px;
+    
+}
+
+.raiting .stars {
+    padding:0;
+    margin:0;
+    height:17px;
+    font-size:0;
+    line-height:0;
+      background:url("../img/star.svg");
+    background-repeat: space;
+    background-color:#ffffff;
+    
+}
+
+.raiting .four-stars {
+    width:88px;
+}
+
+.raiting .three-stars {
+    width:66px;
+}
+
+.raiting .two-stars {
+    width:42px;
+}
+
+.raiting p {
+    margin:0;
+    width:85px;
+    padding-left: 15px;
+    padding-right:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    background:#f2f2f2;
+    color:#666666;
 }
 
 .details {
