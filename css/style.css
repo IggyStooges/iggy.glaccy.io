@@ -484,6 +484,7 @@ a {
   width: 21px;
   height: 22px;
   margin-left: -50px;
+    cursor:pointer;
 }
 
 .calendar-button:hover path,
@@ -501,15 +502,17 @@ a {
   padding: 35px 100px 40px 125px;
   margin: 0;
   margin-bottom: auto;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .main-footer .footer-wrap {
   margin-top: -120px;
+    position:relative;
 }
 
 .main-footer,
 .inner-footer {
-  background-color: rgba(255, 255, 255, 0.9);
+ 
 }
 
 .footer-social {
@@ -777,6 +780,7 @@ a {
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0);
   color: inherit;
+    cursor:pointer;
 }
 
 .show:focus,
@@ -1073,12 +1077,18 @@ input[type="checkbox"] + label {
     color:#666666;
 }
 
+.hotel-type {
+    margin:0;
+    display: inline-block;
+    width:115px;
+}
+
 .details {
   height: 27px;
   width: 110px;
   padding: 0;
   margin: 0;
-  margin-right: 3px;
+  margin-right: 1px;
   font-weight: bold;
   border: none;
   text-align: center;
