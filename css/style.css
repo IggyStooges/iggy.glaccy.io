@@ -323,16 +323,16 @@ a {
 
 .booking-window {
   position: absolute;
-  bottom: -395px;
+  top: 291px;
   left: 316px;
 }
 
-.search-hotel {
+.search-hotel-btn {
   position: absolute;
   bottom: 0;
   left: 316px;
   width: 568px;
-  height: 86px;
+    padding:30px 0;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
@@ -341,27 +341,26 @@ a {
   color: rgb(255, 255, 255);
 }
 
-.search-hotel:hover,
-.search-hotel:focus {
+.search-hotel-btn:hover,
+.search-hotel-btn:focus {
   background-color: rgb(96, 78, 67);
   color: rgb(255, 255, 255);
 }
 
-.search-hotel:active {
+.search-hotel-btn:active {
   background-color: rgb(80, 62, 51);
   color: rgba(255, 255, 255, 0.3);
 }
 
-.search-hotel:active ~ .booking-window {
+.search-hotel-btn:active ~ .booking-window {
   display: none;
 }
 
 .booking-wrap {
   width: 568px;
   box-sizing: border-box;
-  min-height: 395px;
   padding: 0;
-  padding-top: 55px;
+  padding-top: 61px;
   padding-bottom: 55px;
   margin: 0;
   background-color: #ffffff;
@@ -372,7 +371,7 @@ a {
   width: 460px;
   margin: 0;
   padding: 0;
-  margin-bottom: 29px;
+  margin-bottom: 44px;
   border: none;
 }
 
@@ -380,7 +379,7 @@ a {
   width: 460px;
   padding: 0;
   margin: 0;
-  margin-bottom: 29px;
+  margin-bottom: 47px;
   border: none;
 }
 
@@ -389,7 +388,7 @@ a {
   padding: 0;
   margin: 0;
   border: none;
-  margin-bottom: 55px;
+/*  margin-bottom: 55px;*/
 }
 
 .booking-form-index {
@@ -475,9 +474,10 @@ a {
   background-color: rgb(255, 255, 255);
 }
 
-.search {
+.search-btn {
   width: 458px;
-  height: 58px;
+    margin-top:61px;
+    padding:17px 0;
   font-size: 21px;
   line-height: auto;
   font-weight: bold;
