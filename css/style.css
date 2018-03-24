@@ -108,8 +108,8 @@ a {
 }
 
 .causes {
-    padding-top:508px;
-    background-image: url("../img/background.jpg");
+  padding-top: 508px;
+  background-image: url("../img/background.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -332,7 +332,7 @@ a {
   bottom: 0;
   left: 316px;
   width: 568px;
-    padding:30px 0;
+  padding: 30px 0;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
@@ -387,20 +387,25 @@ a {
   width: 100%;
   padding: 0;
   margin: 0;
-  border: none;
-/*  margin-bottom: 55px;*/
 }
 
 .booking-form-index {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-between;
-    margin-left:55px;
-    margin-right:55px;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.people-fieldset-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .booking-form-index fieldset {
   display: flex;
+  border: none;
 }
 
 .booking-form-index label {
@@ -414,23 +419,26 @@ a {
 }
 
 .booking-form-index .arrival-label,
-.booking-form-index .departure-label { 
-    width:100%;
+.booking-form-index .departure-label {
+  width: 100%;
 }
 
 .booking-form-index .children-label,
-.booking-form-index .adults-label{
-    justify-content:space-between;
+.booking-form-index .adults-label {
+  justify-content: space-between;
 }
 
-.booking-form-index .adults-label{
-    width:226px;
+.booking-form-index .adults-label {
+  width: 226px;
 }
 
-.booking-form-index .children-label{
-    margin-left:auto;
-    width:179px;
-    
+.booking-form-index .children-label {
+  margin-left: auto;
+  width: 179px;
+}
+
+.booking-form-index .people-fieldset-wrap {
+  display: flex;
 }
 
 .booking-form-index input {
@@ -476,8 +484,8 @@ a {
 
 .search-btn {
   width: 458px;
-    margin-top:61px;
-    padding:17px 0;
+  margin-top: 61px;
+  padding: 17px 0;
   font-size: 21px;
   line-height: auto;
   font-weight: bold;
@@ -663,9 +671,36 @@ a {
 }
 
 .booking-options fieldset {
-  margin: 0;
   border: none;
   text-align: left;
+}
+
+input[type="checkbox"] + label,
+input[type="checkbox"]:hover + label,
+input[type="checkbox"]:focus + label {
+     padding-left: 42px;
+     background: url("../img/checkbox-off.svg");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+  background: url("../img/checkbox-on.svg");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+
+input[type="checkbox"]:checked:disabled + label {
+  background: url("../img/checkbox-on-disabled.svg");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+
+input[type="checkbox"]:disabled + label {
+  background: url("../img/checkbox-off-disabled.svg");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
 }
 
 .booking-options b {
@@ -678,10 +713,11 @@ a {
 
 .booking-options-container {
   display: flex;
-  align-items: flex-start;
+/*  align-items: flex-start;*/
   margin: 0;
   padding: 0;
   margin-right: 60px;
+      margin-left: 70px;
   padding-top: 26px;
   padding-bottom: 30px;
 }
@@ -690,7 +726,6 @@ a {
   width: 145px;
   margin: 0;
   padding: 0;
-  margin-left: 70px;
   margin-right: 112px;
 }
 
@@ -698,14 +733,14 @@ a {
   width: 140px;
   margin: 0;
   padding: 0;
-  margin-right: 344px;
+/*  margin-right: 344px;*/
 }
 
 .booking-cost-wrap {
-  width: 318px;
+  width: 330px;
   margin: 0;
   padding: 0;
-  margin-right: auto;
+  margin-left: auto;
 }
 
 .booking-legend {
@@ -807,10 +842,11 @@ a {
   left: 252px;
 }
 
-.show {
-  display: block;
-  margin: 0 auto;
-  padding: 7px 35px;
+.show-btn {
+  margin: 0;
+  margin-left:80px;
+  margin-right:auto;
+  padding: 8px 34px;
   border: 2px solid #ffffff;
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0);
@@ -818,8 +854,8 @@ a {
   cursor: pointer;
 }
 
-.show:focus,
-.show:hover {
+.show-btn:focus,
+.show-btn:hover {
   border: 2px solid white;
   background-color: rgba(255, 255, 255, 1);
   color: rgb(0, 0, 0);
@@ -833,13 +869,10 @@ a {
 }
 
 .option-list li {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
   width: 137px;
   margin: 0;
   padding: 0;
-  padding-bottom: 23px;
+  margin-bottom: 25px;
   vertical-align: middle;
 }
 
@@ -848,16 +881,8 @@ a {
   padding: 0;
 }
 
-input[type="checkbox"]:checked + label {
-  margin-left: 15px;
-}
-
-input[type="checkbox"] + label {
-  margin-left: 17px;
-}
-
 .cost-per-day {
-  width: 330px;
+  width: 100%;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -1021,8 +1046,9 @@ input[type="checkbox"] + label {
 .variants-finded li {
   display: flex;
   margin: 0 -75px 0 -75px;
-  padding: 0 0 30px 75px;
+  padding: 0 75px 30px 75px;
   border-bottom: 1px solid #e5e5e5;
+    
 }
 
 .variants-photo {
@@ -1069,11 +1095,10 @@ input[type="checkbox"] + label {
   width: 110px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
   margin-left: auto;
-  margin-right: 75px;
-  padding-top: 18px;
+  margin-top:28px;
 }
 
 .raiting .stars {
