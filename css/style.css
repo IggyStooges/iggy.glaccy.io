@@ -108,10 +108,11 @@ a {
 }
 
 .causes .main-photo {
-    margin:0;
-    padding:0;
     width:1200px;
     height:508px;
+    margin:0;
+    padding:0;
+    background:linear-gradient(to right bottom, #6297c0, #a87e6e);
 }
 
 .causes p {
@@ -654,7 +655,8 @@ a {
   margin: 0;
   padding: 0;
   color: rgb(255, 255, 255);
-  background-image: url("../img/filterbackground.jpg");
+  background-image: url("../img/filterbackground.jpg"), 
+      linear-gradient(to right bottom, #6297c0, #a87e6e);
   background-position: top center;
   background-repeat: no-repeat;
 }
