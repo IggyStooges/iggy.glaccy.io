@@ -1055,7 +1055,7 @@ input[type="checkbox"]:disabled + label {
   margin: 0 -75px 0 -75px;
   padding: 0 75px 29px 75px;
   border-bottom: 1px solid #e5e5e5;
-    
+     text-align: left;
 }
 
 .variants-photo {
@@ -1069,6 +1069,7 @@ input[type="checkbox"]:disabled + label {
 
 .variants-finded li:first-child {
   border-top: 1px solid #e5e5e5;
+    padding-bottom:27px;
 }
 
 .variants-finded-container {
@@ -1088,10 +1089,6 @@ input[type="checkbox"]:disabled + label {
 
 .hotel-page:active {
   color: rgba(0, 0, 0, 0.3);
-}
-
-.variants-finded li {
-  text-align: left;
 }
 
 .raiting {
