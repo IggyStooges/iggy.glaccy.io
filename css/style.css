@@ -108,11 +108,11 @@ a {
 }
 
 .causes .main-photo {
-    width:1200px;
-    height:508px;
-    margin:0;
-    padding:0;
-    background:linear-gradient(to right bottom, #6297c0, #a87e6e);
+  width: 1200px;
+  height: 508px;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right bottom, #6297c0, #a87e6e);
 }
 
 .causes p {
@@ -324,9 +324,9 @@ a {
 
 .search-hotel-btn {
   position: relative;
-    z-index:2;
+  z-index: 2;
   width: 568px;
-    margin-top:50px;
+  margin-top: 50px;
   padding: 30px 0;
   font-size: 21px;
   line-height: 26px;
@@ -334,7 +334,7 @@ a {
   background-color: rgb(118, 99, 87);
   border: none;
   color: rgb(255, 255, 255);
-    cursor:pointer;
+  cursor: pointer;
 }
 
 .search-hotel-btn:hover,
@@ -447,7 +447,6 @@ a {
   justify-content: center;
 }
 
-
 .booking-form-index input[type="number"] {
   margin-left: auto;
   box-sizing: border-box;
@@ -489,7 +488,7 @@ a {
   background-color: rgb(129, 179, 210);
   color: rgb(255, 255, 255);
   border: none;
-    cursor:pointer;
+  cursor: pointer;
 }
 
 .search-btn:hover {
@@ -512,7 +511,7 @@ a {
   color: rgb(169, 169, 169);
   background-color: rgb(242, 242, 242);
   border: none;
-    cursor:pointer;
+  cursor: pointer;
 }
 
 .button-plus-minus:hover,
@@ -655,8 +654,7 @@ a {
   margin: 0;
   padding: 0;
   color: rgb(255, 255, 255);
-  background-image: url("../img/filterbackground.jpg"), 
-      linear-gradient(to right bottom, #6297c0, #a87e6e);
+  background-image: url("../img/filterbackground.jpg"), linear-gradient(to right bottom, #6297c0, #a87e6e);
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -675,11 +673,11 @@ a {
 input[type="checkbox"] + label,
 input[type="checkbox"]:hover + label,
 input[type="checkbox"]:focus + label {
-    display:block;
-    margin:0;
-    height:23px;
-     padding-left: 42px;
-     background: url("../img/checkbox-off.svg");
+  display: block;
+  margin: 0;
+  height: 23px;
+  padding-left: 42px;
+  background: url("../img/checkbox-off.svg");
   background-position: 0 50%;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -714,7 +712,7 @@ input[type="checkbox"]:disabled + label {
 .booking-options-container {
   display: flex;
   width: 1056px;
-margin: 0 auto;
+  margin: 0 auto;
   padding: 0;
   padding-top: 26px;
   padding-bottom: 30px;
@@ -731,7 +729,7 @@ margin: 0 auto;
   width: 140px;
   margin: 0;
   padding: 0;
-/*  margin-right: 344px;*/
+  /*  margin-right: 344px;*/
 }
 
 .booking-cost-wrap {
@@ -831,6 +829,8 @@ margin: 0 auto;
   cursor: pointer;
 }
 
+.range-toggle:hover {}
+
 .range-toggle-min {
   left: 0;
 }
@@ -892,84 +892,84 @@ margin: 0 auto;
   border: none;
 }
 
-.people-input::-webkit-inner-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+.people-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.people-input::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+.people-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.cost-input::-webkit-inner-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+.cost-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-.cost-input::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+.cost-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .cost-input::placeholder {
-    color:white;
-    text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
 }
 
 .cost-input[placeholder] {
-    color:white;
-    text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
 }
 
 .people-input::placeholder {
-    color:black;
-    text-transform: uppercase;
+  color: black;
+  text-transform: uppercase;
 }
 
 .people-input[placeholder] {
-    color:black;
-    text-transform: uppercase;
+  color: black;
+  text-transform: uppercase;
 }
 
 .date-input::placeholder {
-    color:black;
-    text-transform: uppercase;
+  color: black;
+  text-transform: uppercase;
 }
 
 .date-input[placeholder] {
-    color:black;
-    text-transform: uppercase;
+  color: black;
+  text-transform: uppercase;
 }
 
 .date-input::-ms-input-placeholder {
-    color:black;
-    text-transform: uppercase;
+  color: black;
+  text-transform: uppercase;
 }
 
 .people-input::-ms-input-placeholder {
-    color:black;
-    text-transform: uppercase;
+  color: black;
+  text-transform: uppercase;
 }
 
 .cost-input::-ms-input-placeholder {
-    color:white;
-    text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
 }
 
 .date-input:-ms-input-placeholder {
-    color:black;
-    text-transform: uppercase;
+  color: black;
+  text-transform: uppercase;
 }
 
 .people-input:-ms-input-placeholder {
-    color:black;
-    text-transform: uppercase;
+  color: black;
+  text-transform: uppercase;
 }
 
 .cost-input:-ms-input-placeholder {
-    color:white;
-    text-transform: uppercase;
+  color: white;
+  text-transform: uppercase;
 }
 
 .variants {
@@ -1105,7 +1105,7 @@ margin: 0 auto;
 .variants-finded h3 {
   padding: 0;
   margin: 0;
-    margin-top:-6px;
+  margin-top: -6px;
   font-size: 21px;
   line-height: 26px;
 }
@@ -1121,7 +1121,7 @@ margin: 0 auto;
   margin: 0 -73px 0 -73px;
   padding: 30px 73px 30px 73px;
   border-bottom: 1px solid #e5e5e5;
-     text-align: left;
+  text-align: left;
 }
 
 .variants-photo {
@@ -1129,19 +1129,19 @@ margin: 0 auto;
   height: 90px;
   padding: 0;
   margin: 0;
-/*  margin-top: 30px;*/
+  /*  margin-top: 30px;*/
   margin-right: 30px;
 }
 
 .variants-finded li:first-child {
   border-top: 1px solid #e5e5e5;
-/*    padding-bottom:30px;*/
+  /*    padding-bottom:30px;*/
 }
 
 .variants-finded-container {
   margin: 0;
   padding: 0;
-/*  margin-top: 24px;*/
+  /*  margin-top: 24px;*/
 }
 
 .hotel-page {
@@ -1164,7 +1164,7 @@ margin: 0 auto;
   justify-content: space-between;
   align-items: flex-end;
   margin-left: auto;
-/*  margin-top:27px;*/
+  /*  margin-top:27px;*/
 }
 
 .raiting .stars {
@@ -1174,7 +1174,7 @@ margin: 0 auto;
   font-size: 0;
   line-height: 0;
   background: url("../img/star.svg");
-  background-repeat:space;
+  background-repeat: space;
   background-color: #ffffff;
 }
 
