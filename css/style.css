@@ -829,7 +829,10 @@ input[type="checkbox"]:disabled + label {
   cursor: pointer;
 }
 
-.range-toggle:hover {}
+.range-toggle:hover {
+    width: 22px;
+  height: 22px;
+}
 
 .range-toggle-min {
   left: 0;
@@ -968,6 +971,21 @@ input[type="checkbox"]:disabled + label {
 }
 
 .cost-input:-ms-input-placeholder {
+  color: white;
+  text-transform: uppercase;
+}
+
+input:-moz-placeholder {
+  color: black;
+  text-transform: uppercase;
+}
+
+.people-input:-moz-placeholder {
+  color: black;
+  text-transform: uppercase;
+}
+
+.cost-input:-moz-placeholder {
   color: white;
   text-transform: uppercase;
 }
