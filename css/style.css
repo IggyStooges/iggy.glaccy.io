@@ -1,22 +1,30 @@
+html {
+  background-color: #f2f2f2;
+}
+
 body {
   position: relative;
   width: 1200px;
   min-width: 968px;
   margin: 0 auto;
   padding: 0;
-  padding-right: 40px;
-  padding-left: 40px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   color: #000000;
   text-align: center;
+  box-shadow: 0 0 10px 10px #dbdbdb;
 }
 
 a {
   text-decoration: none;
+}
+
+.main-container,
+.container-inner {
+  background-color: white;
 }
 
 .main-header,
@@ -135,9 +143,10 @@ a {
 }
 
 .causes .container {
+  width: 100%;
   margin: 0;
   padding: 0;
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .container p:nth-child(2) {
@@ -830,9 +839,9 @@ input[type="checkbox"]:disabled + label {
 }
 
 .range-toggle:hover {
-    width: 22px;
+  width: 22px;
   height: 22px;
-    border-width: 9px;
+  border-width: 9px;
 }
 
 .range-toggle-min {
@@ -894,6 +903,18 @@ input[type="checkbox"]:disabled + label {
   font: inherit;
   background: none;
   border: none;
+}
+
+.people-input {
+  -moz-appearance: textfield;
+}
+
+.cost-input {
+  -moz-appearance: textfield;
+}
+
+.date-input {
+  -moz-appearance: textfield;
 }
 
 .people-input::-webkit-inner-spin-button {
@@ -1237,6 +1258,7 @@ input:-moz-placeholder {
   text-align: center;
   background-color: rgb(129, 179, 210);
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .details:hover,
@@ -1257,6 +1279,7 @@ input:-moz-placeholder {
   border: none;
   background-color: rgb(118, 99, 87);
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
 
 .book-now:hover,
