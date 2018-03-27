@@ -290,6 +290,10 @@ a {
   margin: 0;
   width: 1200px;
   height: 593px;
+  background-image: url("..img/map.jpg");
+  background-position:top;
+  background-repeat:no-repeat;
+  
 }
 
 .food p {
@@ -326,10 +330,27 @@ a {
 }
 
 .booking-window {
+  display:none;
   position: absolute;
   top: 291px;
   left: 316px;
 }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-300px);
+opacity:0;
+  }
+  
+  100% {
+    transform: translateY(0);
+    opacity:100%;
+  }
+}
+
+.booking-window-show
+{display:block;
+  animation: bounce 2s;}
 
 .search-hotel-btn {
   position: relative;
@@ -940,6 +961,7 @@ input[type="checkbox"]:disabled + label {
 .cost-input::placeholder {
   color: white;
   text-transform: uppercase;
+  opacity:1;
 }
 
 .cost-input[placeholder] {
@@ -950,6 +972,7 @@ input[type="checkbox"]:disabled + label {
 .people-input::placeholder {
   color: black;
   text-transform: uppercase;
+  opacity:1;
 }
 
 .people-input[placeholder] {
@@ -960,6 +983,7 @@ input[type="checkbox"]:disabled + label {
 .date-input::placeholder {
   color: black;
   text-transform: uppercase;
+  opacity:1;
 }
 
 .date-input[placeholder] {
@@ -995,21 +1019,19 @@ input[type="checkbox"]:disabled + label {
 .cost-input:-ms-input-placeholder {
   color: white;
   text-transform: uppercase;
-}
-
-input:-moz-placeholder {
-  color: black;
-  text-transform: uppercase;
+  opacity:1;
 }
 
 .people-input:-moz-placeholder {
   color: black;
   text-transform: uppercase;
+  opacity:1;
 }
 
 .cost-input:-moz-placeholder {
   color: white;
   text-transform: uppercase;
+  opacity:1;
 }
 
 .variants {
