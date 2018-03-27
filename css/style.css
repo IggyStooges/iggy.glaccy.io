@@ -347,10 +347,35 @@ opacity:0;
     opacity:100%;
   }
 }
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+    
+  }
+
+  10%,30%,50% {
+    transform: translateX(-10px);
+  }
+
+  40%,60%,80% {
+    transform: translateX(10px);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.booking-window {display:none;
+}
 
 .booking-window-show
 {display:block;
   animation: bounce 2s;}
+
+.input-error {
+  animation: shake 1s;
+}
 
 .search-hotel-btn {
   position: relative;
