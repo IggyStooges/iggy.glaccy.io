@@ -1,20 +1,20 @@
 var link = document.querySelector(".search-hotel-btn");
-  var popup = document.querySelector(".booking-window");
-  var form = document.querySelector("form");
+var popup = document.querySelector(".booking-window");
+var form = document.querySelector("form");
 var depdate = document.querySelector("[name=date-departure]");
-  var arrdate = document.querySelector("[name=date-arrival]");
-  var adults = document.querySelector("[name=adults]");
-  var children = document.querySelector("[name=children]");
+var arrdate = document.querySelector("[name=date-arrival]");
+var adults = document.querySelector("[name=adults]");
+var children = document.querySelector("[name=children]");
 
 link.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    popup.classList.toggle("booking-window-show");
-  });
+  evt.preventDefault();
+  popup.classList.toggle("booking-window-show");
+  popup.classList.remove("input-error");
+ });
 
-
-  form.addEventListener("submit", function (evt) {
-    if (!arrdate.value || !adults.value || !depdate.value || !children.value) {
-      evt.preventDefault();
-      popup.classList.add("input-error");
+form.addEventListener("submit", function (evt) {
+  if (!arrdate.value || !adults.value || !depdate.value || !children.value) {
+  evt.preventDefault();
+  popup.classList.add("input-error");
     } 
   });
