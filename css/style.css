@@ -1303,11 +1303,13 @@ input[type="checkbox"]:disabled + label {
 .hotel-type {
   margin: 0;
   display: inline-block;
+  vertical-align: middle;
   width: 115px;
 }
 
 .details-btn {
   display: inline-block;
+  vertical-align: middle;
   margin: 0;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -1335,6 +1337,7 @@ input[type="checkbox"]:disabled + label {
 
 .book-now-btn {
   display: inline-block;
+  vertical-align: middle;
   padding: 0;
   margin: 0;
   padding-top: 3px;
