@@ -121,6 +121,7 @@ a {
   margin: 0;
   padding: 0;
   background: linear-gradient(to right bottom, #6297c0, #a87e6e);
+  background-color: #bfcad2;
 }
 
 .causes p {
@@ -292,9 +293,10 @@ a {
   margin: 0;
   width: 1200px;
   height: 593px;
-  background-image: url("..img/map.jpg");
+  background-image: url("../img/map.jpg"), linear-gradient(to right, #f2f1ef, #cbdda9, #f2f1ef);
   background-position: top;
   background-repeat: no-repeat;
+  background-color: #eceee4;
 }
 
 .food p {
@@ -726,6 +728,7 @@ a {
   background-image: url("../img/filterbackground.jpg"), linear-gradient(to right bottom, #6297c0, #a87e6e);
   background-position: top center;
   background-repeat: no-repeat;
+    background-color:#bfcad2;
 }
 
 .booking-options fieldset,
