@@ -16,5 +16,5 @@ form.addEventListener("submit", function (evt) {
   if (!arrdate.value || !adults.value || !depdate.value || !children.value) {
   evt.preventDefault();
   popup.classList.add("input-error");
-    } 
-  });
+} 
+});
