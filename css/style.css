@@ -744,10 +744,13 @@ input[type="checkbox"]:hover + label,
 input[type="checkbox"]:focus + label {
   display: block;
   margin: 0;
+  min-height: 23px;
   padding-left: 40px;
+  padding-top: 2px;
   background: url("../img/checkbox-off.svg");
   background-position: 0 50%;
   background-repeat: no-repeat;
+  vertical-align: middle;
   cursor: pointer;
 }
 
@@ -938,7 +941,7 @@ input[type="checkbox"]:disabled + label {
   width: 137px;
   margin: 0;
   padding: 0;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   vertical-align: middle;
 }
 
@@ -1205,7 +1208,7 @@ input[type="checkbox"]:disabled + label {
 .variants-finded h3 {
   padding: 0;
   margin: 0;
-  margin-top: -5px;
+  margin-top: -3px;
   font-size: 21px;
   line-height: 26px;
 }
@@ -1213,13 +1216,13 @@ input[type="checkbox"]:disabled + label {
 .variants-finded p {
   margin: 0;
   margin-top: 7px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .variants-finded li {
   display: flex;
-  margin: 0 -73px 0 -73px;
-  padding: 30px 73px 30px 73px;
+  margin: 0 -75px 0 -73px;
+  padding: 28px 73px 30px 75px;
   border-bottom: 1px solid #e5e5e5;
   text-align: left;
 }
@@ -1229,7 +1232,6 @@ input[type="checkbox"]:disabled + label {
   height: 90px;
   padding: 0;
   margin: 0;
-  /*  margin-top: 30px;*/
   margin-right: 30px;
 }
 
@@ -1305,6 +1307,7 @@ input[type="checkbox"]:disabled + label {
 }
 
 .details-btn {
+  display: inline-block;
   margin: 0;
   padding-top: 3px;
   padding-bottom: 3px;
@@ -1331,7 +1334,7 @@ input[type="checkbox"]:disabled + label {
 }
 
 .book-now-btn {
-  width: 142px;
+  display: inline-block;
   padding: 0;
   margin: 0;
   padding-top: 3px;
