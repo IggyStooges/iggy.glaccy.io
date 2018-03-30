@@ -597,6 +597,10 @@ a {
   right: 9px;
   width: 21px;
   height: 22px;
+  margin: 0;
+  padding:0;
+  border:none;
+  background: none;
   cursor: pointer;
 }
 
