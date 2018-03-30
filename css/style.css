@@ -1150,6 +1150,11 @@ input[type="checkbox"]:disabled + label {
   color: #81b3d2;
 }
 
+.sorting-button-active:hover,
+.sorting-button-active:focus {
+    border-bottom: 1px dotted rgb(129, 179, 210);
+}
+
 .sorting-button:hover,
 .sorting-button:focus {
   color: rgb(129, 179, 210);
