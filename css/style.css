@@ -151,7 +151,7 @@ a {
 }
 
 .container p:nth-child(2) {
-  width:490px;
+  width: 490px;
   padding-bottom: 53px;
 }
 
@@ -225,9 +225,8 @@ a {
   margin-right: auto;
 }
 
-
 .causes-wrapping p {
-  padding-bottom:60px;
+  padding-bottom: 60px;
 }
 
 .cause-bridge p {
@@ -321,7 +320,7 @@ a {
 }
 
 .booking h2 {
-  width:300px;
+  width: 300px;
   margin: 0 auto;
   padding: 0;
   margin-bottom: 23px;
@@ -337,12 +336,6 @@ a {
   padding-bottom: 0px;
   line-height: 24px;
   width: 440px;
-}
-
-.booking-window {
-  display: none;
-  position: absolute;
-  left: 316px;
 }
 
 @keyframes bounce {
@@ -375,17 +368,26 @@ a {
   }
 }
 
-.booking-window {
+.js .booking-window {
+    position: absolute;
   display: none;
+  left: 316px;
 }
 
-.booking-window-show {
+.js .booking-window-show {
   display: block;
+  left: 316px;
   animation: bounce 0.5s;
 }
 
-.input-error {
+.js .input-error {
   animation: shake 0.5s;
+}
+
+.no-js .booking-window {
+  display: block;
+  position: absolute;
+  left: 316px;
 }
 
 .search-hotel-btn {
@@ -553,7 +555,7 @@ a {
   font-size: 21px;
   line-height: auto;
   font-weight: bold;
-  word-break:break-all;
+  word-break: break-all;
   background-color: rgb(129, 179, 210);
   color: rgb(255, 255, 255);
   border: none;
@@ -598,8 +600,8 @@ a {
   width: 21px;
   height: 22px;
   margin: 0;
-  padding:0;
-  border:none;
+  padding: 0;
+  border: none;
   background: none;
   cursor: pointer;
 }
@@ -608,7 +610,7 @@ a {
   fill: #000000;
 }
 
-.calendar-button:hover path{
+.calendar-button:hover path {
   fill: #000000;
 }
 
@@ -647,12 +649,12 @@ a {
 
 .social-list li {
   margin-right: 6px;
-  margin-bottom:3px;
+  margin-bottom: 3px;
 }
 
 .social-list li:last-child {
   margin: 0;
-  margin-bottom:3px;
+  margin-bottom: 3px;
 }
 
 .social-button {
@@ -741,8 +743,8 @@ a {
   background-image: url("../img/filterbackground.jpg"), linear-gradient(to right bottom, #6297c0, #a87e6e);
   background-position: top center;
   background-repeat: no-repeat;
-  background-color:#bfcad2;
-  background-size:cover;
+  background-color: #bfcad2;
+  background-size: cover;
 }
 
 .booking-options fieldset,
@@ -932,7 +934,7 @@ input[type="checkbox"]:disabled + label {
 
 .show-btn {
   box-sizing: content-box;
-  width:67px;
+  width: 67px;
   margin: 0;
   padding: 8px 33px;
   border: 2px solid #ffffff;
@@ -1156,7 +1158,7 @@ input[type="checkbox"]:disabled + label {
 
 .sorting-button-active:hover,
 .sorting-button-active:focus {
-    border-bottom: 1px dotted rgb(129, 179, 210);
+  border-bottom: 1px dotted rgb(129, 179, 210);
 }
 
 .sorting-button:hover,
@@ -1366,7 +1368,7 @@ input[type="checkbox"]:disabled + label {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
-  margin-right:5px;
+  margin-right: 5px;
   padding: 0;
   padding-top: 3px;
   padding-bottom: 3px;
