@@ -1373,11 +1373,6 @@ input[type="checkbox"]:disabled + label {
   color: rgb(0, 0, 0);
 }
 
-.sorting-button:visited {
-  border: none;
-  color: rgb(129, 179, 210);
-}
-
 .arrows {
   display: -webkit-box;
   display: -ms-flexbox;
