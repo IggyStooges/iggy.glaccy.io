@@ -723,7 +723,7 @@ a {
   color: rgb(129, 179, 210);
 }
 
-.calendar-button {
+.calendar-btn {
   position: absolute;
   right: 9px;
   width: 21px;
@@ -735,15 +735,15 @@ a {
   cursor: pointer;
 }
 
-.calendar-button:focus path {
+.calendar-btn:focus path {
   fill: #000000;
 }
 
-.calendar-button:hover path {
+.calendar-btn:hover path {
   fill: #000000;
 }
 
-.calendar-button:active path {
+.calendar-btn:active path {
   fill: rgb(129, 179, 210);
 }
 
