@@ -585,8 +585,7 @@ a {
   font-weight: bold;
 }
 
-.booking-form-index .arrival-label,
-.booking-form-index .departure-label {
+.booking-form-index .dates-wrap {
   width: 100%;
   position: relative;
   display: -webkit-box;
