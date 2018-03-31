@@ -10,11 +10,11 @@ link.addEventListener("click", function (evt) {
   evt.preventDefault();
   popup.classList.toggle("booking-window-show");
   popup.classList.remove("input-error");
- });
+});
 
 form.addEventListener("submit", function (evt) {
   if (!arrdate.value || !adults.value || !depdate.value || !children.value) {
-  evt.preventDefault();
-  popup.classList.add("input-error");
-} 
+    evt.preventDefault();
+    popup.classList.add("input-error");
+  }
 });
