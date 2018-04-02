@@ -6,6 +6,9 @@ var arrdate = document.querySelector("[name=date-arrival]");
 var adults = document.querySelector("[name=adults]");
 var children = document.querySelector("[name=children]");
 
+document.documentElement
+  .classList.replace('no-js', 'js');
+
 link.addEventListener("click", function (evt) {
   evt.preventDefault();
   popup.classList.toggle("booking-window-show");

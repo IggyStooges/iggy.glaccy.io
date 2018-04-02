@@ -16,7 +16,7 @@ body {
   color: #000000;
   text-align: center;
   -webkit-box-shadow: 0 0 10px 10px #dbdbdb;
-          box-shadow: 0 0 10px 10px #dbdbdb;
+  box-shadow: 0 0 10px 10px #dbdbdb;
 }
 
 a {
@@ -63,7 +63,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   margin-right: 72px;
@@ -195,12 +195,12 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: auto;
   padding: 0;
   margin: 0;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   background-color: rgb(238, 238, 238);
 }
 
@@ -214,7 +214,7 @@ a {
 .causes-flex-element {
   width: 400px;
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   padding: 0;
   margin: 0;
   padding-top: 47px;
@@ -253,8 +253,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0;
   margin-left: auto;
   margin-right: auto;
@@ -291,11 +291,11 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   padding: 0;
   margin: 0;
   padding-top: 60px;
@@ -343,7 +343,7 @@ a {
   position: relative;
   padding-top: 50px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -369,12 +369,12 @@ a {
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translateY(-300px);
-            transform: translateY(-300px);
+    transform: translateY(-300px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 100%;
   }
 }
@@ -382,12 +382,12 @@ a {
 @keyframes bounce {
   0% {
     -webkit-transform: translateY(-300px);
-            transform: translateY(-300px);
+    transform: translateY(-300px);
     opacity: 0;
   }
   100% {
     -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
     opacity: 100%;
   }
 }
@@ -395,51 +395,51 @@ a {
 @-webkit-keyframes shake {
   0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   10%,
   30%,
   50% {
     -webkit-transform: translateX(-10px);
-            transform: translateX(-10px);
+    transform: translateX(-10px);
   }
   40%,
   60%,
   80% {
     -webkit-transform: translateX(10px);
-            transform: translateX(10px);
+    transform: translateX(10px);
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 @keyframes shake {
   0% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
   10%,
   30%,
   50% {
     -webkit-transform: translateX(-10px);
-            transform: translateX(-10px);
+    transform: translateX(-10px);
   }
   40%,
   60%,
   80% {
     -webkit-transform: translateX(10px);
-            transform: translateX(10px);
+    transform: translateX(10px);
   }
   100% {
     -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 .js .booking-window {
-    position: absolute;
+  position: absolute;
   display: none;
   left: 316px;
 }
@@ -448,12 +448,12 @@ a {
   display: block;
   left: 316px;
   -webkit-animation: bounce 0.5s;
-          animation: bounce 0.5s;
+  animation: bounce 0.5s;
 }
 
 .js .input-error {
   -webkit-animation: shake 0.5s;
-          animation: shake 0.5s;
+  animation: shake 0.5s;
 }
 
 .no-js .booking-window {
@@ -491,14 +491,14 @@ a {
 .booking-wrap {
   width: 568px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   padding-top: 55px;
   padding-bottom: 55px;
   margin: 0;
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 50px 0 #dfdfdf;
-          box-shadow: 0 10px 50px 0 #dfdfdf;
+  box-shadow: 0 10px 50px 0 #dfdfdf;
 }
 
 .arrival-fieldset {
@@ -528,10 +528,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-left: 55px;
   margin-right: 55px;
 }
@@ -542,8 +542,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .booking-form-index fieldset {
@@ -566,8 +566,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .booking-form-index .children-label,
@@ -576,15 +576,15 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 23px;
   padding: 0;
   font-size: 14px;
   font-weight: bold;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .booking-form-index .adults-label {
@@ -612,14 +612,14 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .booking-form-index input[type="number"] {
   margin-left: auto;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding-left: 10px;
   width: 38px;
@@ -630,7 +630,7 @@ a {
 
 .booking-form-index input[type="text"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   margin-left: auto;
   padding-left: 15px;
@@ -725,8 +725,8 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 35px 100px 40px 125px;
   margin: 0;
   margin-bottom: auto;
@@ -748,10 +748,10 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 160px;
   margin: 0;
   padding: 0;
@@ -775,15 +775,15 @@ a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: rgb(129, 179, 210);
   font-size: 0px;
   line-height: 0px;
@@ -807,13 +807,13 @@ a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 197px;
   margin: 0;
   padding: 0;
@@ -988,8 +988,8 @@ input[type="checkbox"]:disabled + label {
   height: 22px;
   background: #ffffff;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .cost-control .min-cost-label,
@@ -1042,14 +1042,14 @@ input[type="checkbox"]:disabled + label {
   position: absolute;
   top: -9px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 20px;
   height: 20px;
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
   -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
-          box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
 }
 
@@ -1069,7 +1069,7 @@ input[type="checkbox"]:disabled + label {
 
 .show-btn {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   width: 67px;
   margin: 0;
   padding: 8px 33px;
@@ -1298,8 +1298,8 @@ input[type="checkbox"]:disabled + label {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   margin: 0;
   padding: 0;
   padding-top: 32px;
@@ -1311,10 +1311,10 @@ input[type="checkbox"]:disabled + label {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   margin: 0;
   padding: 0;
 }
@@ -1375,11 +1375,11 @@ input[type="checkbox"]:disabled + label {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   width: 34px;
@@ -1444,7 +1444,7 @@ input[type="checkbox"]:disabled + label {
 .variants-finded p {
   margin: 0;
   margin-top: 7px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .variants-finded li {
@@ -1452,7 +1452,7 @@ input[type="checkbox"]:disabled + label {
   display: -ms-flexbox;
   display: flex;
   margin: 0 -75px 0 -73px;
-  padding: 28px 73px 30px 75px;
+  padding: 27px 73px 27px 75px;
   border-bottom: 1px solid #e5e5e5;
   text-align: left;
 }
@@ -1494,14 +1494,14 @@ input[type="checkbox"]:disabled + label {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   margin-left: auto;
 }
 
@@ -1556,6 +1556,7 @@ input[type="checkbox"]:disabled + label {
   padding-left: 17px;
   padding-right: 17px;
   margin-right: 2px;
+  margin-top: 3px;
   font-weight: bold;
   border: none;
   background-color: rgb(129, 179, 210);
@@ -1580,6 +1581,7 @@ input[type="checkbox"]:disabled + label {
   vertical-align: middle;
   margin: 0;
   margin-right: 5px;
+  margin-top: 3px;
   padding: 0;
   padding-top: 3px;
   padding-bottom: 3px;
