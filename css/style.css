@@ -6,7 +6,7 @@ body {
   font-family: "Cuprum", "PT sans", sans-serif;
   font-size: 17px;
   line-height: 18px;
-  background-color: #f3f7f8;
+  background-color: #ffffff;
 }
 
 a {
@@ -17,6 +17,9 @@ a {
 inner-header {
   padding: 0;
   margin: 0;
+ padding-bottom:65px;
+      background-color: #f3f7f8;
+
 }
 
 .header-hat {
@@ -196,4 +199,84 @@ inner-header {
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
+}
+
+.main-container {
+    background-color:#ffffff;
+    padding:0;
+    padding-top:59px;
+    padding-left:130px;
+    padding-right:130px;
+    margin:0;
+}
+
+.main-container h3 {
+    margin:0;
+    padding:0;
+    padding-bottom:15px;
+    width:135px;
+    font-size:24px;
+    line-height: 30px;
+    color:#ffffff;
+    font-weight:normal;
+}
+
+.offers-list {
+    display:flex;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.offers-list li {
+    box-sizing: border-box;
+    width:300px;
+    margin:0;
+    margin-left:20px;
+    padding:0;
+    padding-left:25px;
+    padding-right:140px;
+    padding-top:20px;
+    padding-bottom:22px;
+}
+
+.offers-list li:first-child {
+    margin-left:0;
+    background-color: #ffbf47;
+}
+
+.offers-list li:nth-child(2) {
+    background-color: #3bbce3;
+}
+
+.offers-list li:nth-child(3) {
+    background-color: #dc91d8;
+}
+
+.offers-list li:first-child {
+    margin-left:0;
+    background-color: #ffbf47;
+}
+
+.offers-list a {
+    display:inline-block;
+    width:90px;
+    padding:10px 25px;
+    vertical-align: middle;
+    font-size: 14px;
+    color:#ffffff;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.offers-list li:first-child>a {
+    background-color:#e5ac40;
+}
+
+.offers-list li:nth-child(2)>a {
+    background-color:#35a9cc;
+}
+
+.offers-list li:nth-child(3)>a {
+    background-color:#c682c2;
 }
