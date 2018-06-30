@@ -17,9 +17,8 @@ a {
 inner-header {
   padding: 0;
   margin: 0;
- padding-bottom:65px;
-      background-color: #f3f7f8;
-
+  padding-bottom: 65px;
+  background-color: #f3f7f8;
 }
 
 .header-hat {
@@ -202,81 +201,299 @@ inner-header {
 }
 
 .main-container {
-    background-color:#ffffff;
-    padding:0;
-    padding-top:59px;
-    padding-left:130px;
-    padding-right:130px;
-    margin:0;
+  background-color: #ffffff;
+  padding: 0;
+  padding-top: 59px;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin: 0;
 }
 
 .main-container h3 {
-    margin:0;
-    padding:0;
-    padding-bottom:15px;
-    width:135px;
-    font-size:24px;
-    line-height: 30px;
-    color:#ffffff;
-    font-weight:normal;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  width: 135px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: normal;
 }
 
 .offers-list {
-    display:flex;
-    margin:0;
-    padding:0;
-    list-style:none;
+  display: flex;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  list-style: none;
 }
 
-.offers-list li {
-    box-sizing: border-box;
-    width:300px;
-    margin:0;
-    margin-left:20px;
-    padding:0;
-    padding-left:25px;
-    padding-right:140px;
-    padding-top:20px;
-    padding-bottom:22px;
+.offers-list li,
+.features-list li {
+  box-sizing: border-box;
+  width: 300px;
+  margin: 0;
+  margin-left: 20px;
+  padding: 0;
+  padding-left: 25px;
+  padding-right: 140px;
+  padding-top: 20px;
+  padding-bottom: 22px;
 }
 
 .offers-list li:first-child {
-    margin-left:0;
-    background-color: #ffbf47;
+  margin-left: 0;
+  background-color: #ffbf47;
 }
 
 .offers-list li:nth-child(2) {
-    background-color: #3bbce3;
+  background-color: #3bbce3;
 }
 
 .offers-list li:nth-child(3) {
-    background-color: #dc91d8;
+  background-color: #dc91d8;
 }
 
-.offers-list li:first-child {
-    margin-left:0;
-    background-color: #ffbf47;
+.features-list li:first-child {
+  background-color: #8ed78f;
+  margin-bottom: 20px;
 }
 
-.offers-list a {
-    display:inline-block;
-    width:90px;
-    padding:10px 25px;
-    vertical-align: middle;
-    font-size: 14px;
-    color:#ffffff;
-    text-transform: uppercase;
-    border-radius: 2px;
+.features-list li:nth-child(2) {
+  background-color: #ffc047;
+}
+
+.offers-list a,
+.features-list a {
+  display: block;
+  box-sizing: border-box;
+  width: 135px;
+  padding: 10px 25px;
+  padding-right: 15px;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 3px;
 }
 
 .offers-list li:first-child>a {
-    background-color:#e5ac40;
+  background-color: #e5ac40;
 }
 
 .offers-list li:nth-child(2)>a {
-    background-color:#35a9cc;
+  background-color: #35a9cc;
 }
 
 .offers-list li:nth-child(3)>a {
-    background-color:#c682c2;
+  background-color: #c682c2;
 }
+
+.features-list li:first-child>a {
+  background-color: #80c180;
+}
+
+.features-list li:nth-child(2)>a {
+  background-color: #e5ac40;
+  padding-left: 35px;
+}
+
+.slider {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-color: #5c666d;
+  width: 620px;
+  list-style: none;
+}
+
+.slider-perforator {
+  display: none;
+  background-color: #5c666d;
+}
+
+.features {
+  display: flex;
+  margin-bottom: 53px;
+}
+
+.features-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider h3 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.slider p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 25px;
+  color: #ffffff;
+}
+
+.slider-hat {
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+  padding-left: 25px;
+  margin-bottom: 100px;
+}
+
+.slider-btn {
+  position: absolute;
+  width: 22px;
+  height: 40px;
+}
+
+.prev-slider-btn {
+  top: 50%;
+  left: 25px;
+}
+
+.next-slider-btn {
+  top: 50%;
+  right: 25px;
+}
+
+.open-catalog-btn {
+  display: block;
+  box-sizing: border-box;
+  margin-left: 25px;
+  width: 195px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ee3643;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.popular-wrap {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  margin: 0;
+  margin-bottom: 20px;
+  background-color: #f9f5f0;
+}
+
+.popular-wrap h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.all-items-btn,
+.all-maker-btn {
+  display: block;
+  width: 253px;
+  box-sizing: border-box;
+  padding: 10px 55px;
+  padding-right: 50px;
+  margin-left: auto;
+  border-radius: 3px;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.all-maker-btn {
+  padding-right: 50px;
+  padding-left: 70px;
+}
+
+.items-list {
+  display: flex;
+  justify-content: space-between;
+    flex-wrap:wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.items-list li {
+  width: 218px;
+  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flag {
+  display: none;
+}
+
+.actions {
+  display: none;
+}
+
+.title {
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.discount {
+  margin-bottom: 10px;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
+
+.price {
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+  margin-bottom: 20px;
+  padding: 10px 30px;
+  color: white;
+  background-color: #ee3643;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.price:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -20px;
+  width: 0;
+  height: 0;
+  border: 20px solid white;
+  border-left-color: #ee3643;
+}
+
+.price-without-discount {
+  margin-top: 43px;
+}
+
