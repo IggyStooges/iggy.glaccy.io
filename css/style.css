@@ -427,7 +427,7 @@ inner-header {
 .items-list {
   display: flex;
   justify-content: space-between;
-    flex-wrap:wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -453,6 +453,7 @@ inner-header {
 .title {
   width: 160px;
   margin: 0 auto;
+  margin-top: 30px;
   margin-bottom: 15px;
   font-size: 18px;
   line-height: 20px;
@@ -473,7 +474,7 @@ inner-header {
   width: 80px;
   margin: 10px auto;
   margin-bottom: 20px;
-  padding: 10px 30px;
+    padding:10px 30px;
   color: white;
   background-color: #ee3643;
   border-radius: 3px;
@@ -497,3 +498,11 @@ inner-header {
   margin-top: 43px;
 }
 
+.image {
+  width: 218px;
+  height: 150px;
+}
+
+.image img {
+  max-width: 100%;
+}
