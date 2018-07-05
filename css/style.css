@@ -627,3 +627,52 @@ inner-header {
 .guarantee, .credit {
     display:none;
 }
+
+.description {
+  padding: 0;
+  padding-top: 65px;
+}
+
+.description h2 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.description p {
+  padding: 0;
+  padding-bottom: 25px;
+  margin: 0;
+  width: 360px;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.index-columns {
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.contacts {
+  margin-left:auto;
+}
+
+.description a {
+  display: block;
+  width: 253px;
+  box-sizing: border-box;
+  padding: 10px 55px;
+  padding-right: 50px;
+  margin-left: auto;
+  border-radius: 3px;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+}
