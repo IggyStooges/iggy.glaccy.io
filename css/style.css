@@ -840,3 +840,68 @@ inner-header {
 .communications {
     display: flex;
 }
+
+
+.footer-social {
+  margin: 0;
+  padding: 0;
+}
+
+.social-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 160px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-list li {
+  margin-right: 6px;
+  margin-bottom: 3px;
+}
+
+.social-list li:last-child {
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.social-button {
+  width: 46px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgb(129, 179, 210);
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: rgb(102, 158, 192);
+}
+
+.social-button:active {
+  background-color: #5496bd;
+}
+
+.social-button:active path {
+  opacity: 0.3;
+}
