@@ -78,7 +78,7 @@ inner-header {
     box-sizing: border-box;
 }
 
-.header-hat-list svg {
+.main-header svg {
     opacity: 0.3;
 }
 
@@ -116,11 +116,15 @@ inner-header {
     display: flex;
     align-items: flex-start;
     padding: 46px 130px;
-    padding-bottom: 27px;
+    padding-bottom: 0;
     margin: 0;
+    margin-bottom: 40px;
+
 }
 
 .header-description {
+    margin: 0;
+    padding: 0;
     margin-left: 55px;
     width: 200px;
     padding-top: 5px;
@@ -130,7 +134,7 @@ inner-header {
     color: #ee3643;
 }
 
-.contacts {
+.contacts-header {
     margin-left: 65px;
 }
 
@@ -140,8 +144,8 @@ inner-header {
     margin: 0;
     padding-left: 70px;
     padding-right: 30px;
-    padding-bottom: 11px;
-    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border: 3px solid #ffffff;
     background-image: url("../img/icon-phone.svg");
     background-position: 13px 50%;
@@ -157,7 +161,6 @@ inner-header {
     margin: 0;
     padding-left: 10px;
     padding-right: 5px;
-    padding-bottom: 10px;
     padding-top: 4px;
     font-size: 14px;
     line-height: 24px;
@@ -168,7 +171,7 @@ inner-header {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 70px;
+    margin-left: auto;
     list-style: none;
 }
 
@@ -180,16 +183,22 @@ inner-header {
 
 .user-menu li {
     padding-top: 12px;
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     background-color: #ffffff;
 }
 
 .user-menu li:first-child {
+    display: flex;
+    align-items: center;
     box-sizing: border-box;
     width: 120px;
     margin: 0;
-    padding-left: 45px;
+    padding-left: 14px;
     padding-right: 25px;
+}
+
+.user-menu svg {
+    padding-right: 14px;
 }
 
 .user-menu li:nth-child(2) {
