@@ -655,7 +655,7 @@ inner-header {
 
 .main-container .services {
     padding-top: 60px;
-    padding-bottom: 70px;
+    padding-bottom: 60px;
     background-color: #f4f8f9;
 }
 
@@ -671,8 +671,9 @@ inner-header {
 
 .services p {
     padding: 0;
-    padding-bottom: 30px;
     margin: 0;
+
+    padding-bottom: 25px;
     width: 360px;
     font-size: 13px;
     line-height: 24px;
@@ -692,6 +693,7 @@ inner-header {
     margin: 0;
     padding: 0;
     padding-top: 40px;
+    padding-bottom: 40px;
     width: 240px;
     box-sizing: border-box;
     list-style: none;
@@ -742,12 +744,14 @@ inner-header {
     line-height: 24px;
 }
 
-.delivery p {
+.delivery-wrap p {
     width: 250px;
 }
 
 .delivery {
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 .guarantee,
@@ -759,14 +763,28 @@ inner-header {
 .image-car,
 .image-guarantee,
 .image-credit {
-    position:absolute;
+    position: absolute;
 }
 
 .image-car {
-    bottom:-70px;
-    left:232px;
-    width:468px;
+    bottom: -100px;
+    left: 150px;
+    width: 468px;
     height: 261px;
+}
+
+.image-guarantee {
+    bottom: -100px;
+    left: 240px;
+    width: 389px;
+    height: 283px;
+}
+
+.image-credit {
+    bottom: -100px;
+    left: 152px;
+    width: 468px;
+    height: 285px;
 }
 
 .credit a {
@@ -782,14 +800,31 @@ inner-header {
     color: #ffffff;
 }
 
+.index-columns {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 85px;
+    padding-bottom: 86px;
+}
+
 .index-columns .description {
     padding: 0;
     padding-left: 130px;
 }
 
-.index-columns p {
+.index-columns h2 {
+    margin: 0;
     padding: 0;
     padding-bottom: 25px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.index-columns p {
+    padding: 0;
+    padding-bottom: 24px;
     margin: 0;
     width: 520px;
     font-size: 13px;
@@ -800,25 +835,9 @@ inner-header {
     width: 190px;
 }
 
-.index-columns {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 65px;
-    padding-bottom: 86px;
-}
-
-.index-columns h2 {
-    margin: 0;
-    padding: 0;
-    padding-bottom: 30px;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
 .index-columns .partners-list {
     margin: 0;
+        margin-bottom: 34px;
     padding: 0;
     width: 220px;
     list-style: none;
@@ -833,10 +852,8 @@ inner-header {
 
 .description a {
     display: block;
-    width: 255px;
-    box-sizing: border-box;
-    padding: 10px 55px;
-    padding-right: 50px;
+    width: 140px;
+    padding: 10px 40px;
     border-radius: 3px;
     background-color: #ee3643;
     text-transform: uppercase;
@@ -859,6 +876,10 @@ inner-header {
     color: #ffffff;
 }
 
+.contacts p {
+        padding-bottom: 30px;
+}
+
 .partners-list li {
     position: relative;
     margin-bottom: 20px;
@@ -877,6 +898,12 @@ inner-header {
     margin: 0;
     padding: 0;
     border-bottom: 2px solid #ee3643;
+}
+
+.map {
+    width: 300px;
+    height:158px;
+    margin-bottom: 42px;
 }
 
 .footer-hat {
