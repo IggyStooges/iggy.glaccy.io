@@ -837,7 +837,7 @@ inner-header {
 
 .index-columns .partners-list {
     margin: 0;
-        margin-bottom: 34px;
+    margin-bottom: 34px;
     padding: 0;
     width: 220px;
     list-style: none;
@@ -877,7 +877,7 @@ inner-header {
 }
 
 .contacts p {
-        padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .partners-list li {
@@ -902,7 +902,7 @@ inner-header {
 
 .map {
     width: 300px;
-    height:158px;
+    height: 158px;
     margin-bottom: 42px;
 }
 
@@ -1108,15 +1108,53 @@ inner-header {
     position: absolute;
     left: 290px;
     top: 2520px;
+    padding: 0;
+    padding-top: 45px;
     width: 620px;
     opacity: 1;
     background-color: #ffffff;
-    border-top: 5px solid #ff5358;
+    border-top: 7px solid #ff5358;
     box-shadow: 0 0 10px 5px #a2a2a2;
 }
 
 .pop-up fieldset {
+    padding: 0;
+    padding-bottom: 37px;
+    margin: 0 80px;
     border: none;
+}
+
+.pop-up label {
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+    padding-bottom: 9px
+}
+
+.pop-up input[type="text"],
+.pop-up input[type="email"] {
+    margin-bottom: 19px;
+    border: 2px solid #dee3e4;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    width: 187px;
+    border-radius: 3px;
+}
+
+.pop-up textarea {
+    width: 427px;
+    height: 100px;
+    margin: 0;
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-right: 15px;
+    border: 2px solid #dee3e4;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #a9a9a9;
 }
 
 .pop-up-wrap {
@@ -1125,10 +1163,10 @@ inner-header {
 
 .pop-up-close {
     position: absolute;
-    top: 9px;
-    right: 9px;
-    width: 21px;
-    height: 21px;
+    top: 6px;
+    right: 19px;
+    width: 25px;
+    height: 25px;
     background-color: transparent;
     border: 0;
     cursor: pointer;
@@ -1136,11 +1174,9 @@ inner-header {
 
 .pop-up-close::before,
 .pop-up-close::after {
-    content: "";
     position: absolute;
-    top: 6px;
-    left: -1px;
-    width: 19px;
+    content: "";
+    width: 25px;
     height: 3px;
     background-color: #ee3643;
 }
@@ -1151,4 +1187,31 @@ inner-header {
 
 .pop-up-close::after {
     transform: rotate(-45deg);
+}
+
+.fieldset-wrap {
+    display: flex;
+}
+
+.mail-wrap {
+    margin-left: auto;
+}
+
+.send-wrap {
+    padding-top: 33px;
+    padding-bottom: 37px;
+    background-color: #f4f4f4;
+}
+
+.send-wrap .send-btn {
+    box-sizing: content-box;
+    margin: 0 80px;
+    padding: 11px 200px;
+    width: 60px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: #ee3643;
+    color: #ffffff;
 }

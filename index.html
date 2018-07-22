@@ -232,7 +232,7 @@
                                 <br>поднимая его на ваш этаж
                             </p>
                         </div>
-                        <div class="image-car"><img src="img/delivery.png" width="468px" height="261px" alt="доставка"></div>
+                        <div class="image-car"><img src="img/delivery.png" width="468" height="261" alt="доставка"></div>
                     </article>
                     <article class="guarantee">
                         <div class="guarantee-wrap">
@@ -240,7 +240,7 @@
                             <p>Если купленный у нас товар поломается или заискрит,<br> а также в случае пожара, спровоцированного его возгаранием,<br> вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br> Дом уж восстановите как-нибудь сами.
                             </p>
                         </div>
-                        <div class="image-guarantee"><img src="img/guarantee.png" width="389px" height="283px" alt="гарантия"></div>
+                        <div class="image-guarantee"><img src="img/guarantee.png" width="389" height="283" alt="гарантия"></div>
                     </article>
                     <article class="credit">
                         <div class="credit-wrap">
@@ -249,7 +249,7 @@
                             <p>Залезть в долговую яму стало проще!<br>Кредитные консультанты придут вам на помощь.
                             </p>
                         </div>
-                        <div class="image-credit"><img src="img/credit.png" width="468px" height="285px" alt="кредит"></div>
+                        <div class="image-credit"><img src="img/credit.png" width="468" height="285" alt="кредит"></div>
                         <a href="#">отправить заявку</a>
                     </article>
                 </div>
@@ -344,22 +344,27 @@
         </section>
     </footer>
     <section class="pop-up">
+        <button class="pop-up-close" type="button"></button>
+
         <div class="pop-up-wrap">
-            <button class="pop-up-close" type="button"></button>
             <form class="pop-up-form" method="post" action="http/">
-                <fieldset class="your-name-fieldset">
-                    <label for="your-name">Ваше имя:</label>
-                    <input type="text" id="your-name" placeholder="Представьтесь, пожалуйста">
-                </fieldset>
-                <fieldset class="your-mail-fieldset">
-                    <label for="your-mail">Ваш e-mail:</label>
-                    <input type="email" id="your-mail" placeholder="Для отправки ответа">
-                </fieldset>
-                <fieldset class="your-letter-fieldset">
+                <fieldset class="main-fieldset">
+                    <div class="fieldset-wrap">
+                        <div class="name-wrap">
+                            <label for="your-name">Ваше имя:</label>
+                            <input type="text" id="your-name" placeholder="Представьтесь, пожалуйста">
+                        </div>
+                        <div class="mail-wrap">
+                            <label for="your-mail">Ваш e-mail:</label>
+                            <input type="email" id="your-mail" placeholder="Для отправки ответа">
+                        </div>
+                    </div>
                     <label for="letter-area">Текст письма:</label>
-                    <textarea name="letter" id="letter-area" rows="10"> В свободной форме </textarea>
+                    <textarea name="letter" id="letter-area" rows="5"> В свободной форме </textarea>
                 </fieldset>
-                <button class="send-btn" type="submit">ОТПРАВИТЬ</button>
+                <div class="send-wrap">
+                    <button class="send-btn" type="submit">ОТПРАВИТЬ</button>
+                </div>
             </form>
         </div>
     </section>
