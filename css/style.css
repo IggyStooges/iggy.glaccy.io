@@ -119,7 +119,6 @@ inner-header {
     padding-bottom: 0;
     margin: 0;
     margin-bottom: 38px;
-
 }
 
 .header-description {
@@ -236,7 +235,6 @@ inner-header {
     padding: 0;
     font-size: 17px;
     line-height: 17px;
-
 }
 
 .site-navigation a {
@@ -253,6 +251,8 @@ inner-header {
 }
 
 .main-container section {
+    margin: 0;
+    padding: 0;
     padding-left: 130px;
     padding-right: 130px;
 }
@@ -260,13 +260,13 @@ inner-header {
 .main-container h3 {
     margin: 0;
     margin-left: -2px;
+    margin-bottom: 10px;
     padding: 0;
-    padding-bottom: 15px;
     width: 135px;
     font-size: 24px;
     line-height: 30px;
     color: #ffffff;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .offers-list {
@@ -287,8 +287,8 @@ inner-header {
     padding: 0;
     padding-left: 25px;
     padding-right: 140px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 .offers-list li:first-child {
@@ -328,7 +328,7 @@ inner-header {
     background-repeat: no-repeat;
 }
 
-.offers-list .flag-new {
+.flag-new {
     position: absolute;
     top: 0;
     right: 0;
@@ -347,7 +347,6 @@ inner-header {
     width: 135px;
     padding: 10px 25px;
     padding-right: 15px;
-    vertical-align: middle;
     font-size: 14px;
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
@@ -418,13 +417,12 @@ inner-header {
     background-repeat: no-repeat;
 }
 
-.features {
+.main-container .features {
     display: flex;
     margin-bottom: 53px;
 }
 
 .features-list {
-    display: inline-block;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -449,7 +447,7 @@ inner-header {
 .slider-hat {
     margin: 0;
     padding: 0;
-    padding-top: 25px;
+    padding-top: 22px;
     padding-left: 25px;
     margin-bottom: 100px;
 }
@@ -559,16 +557,12 @@ inner-header {
 }
 
 .items-list li {
+    position: relative;
     width: 218px;
     margin-bottom: 20px;
     border: 1px solid #eaeaea;
-    line-height: 20px;
     font-weight: bold;
     text-align: center;
-}
-
-.flag {
-    display: none;
 }
 
 .actions {
@@ -579,7 +573,7 @@ inner-header {
     width: 160px;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 18px;
     line-height: 20px;
     font-weight: bold;
@@ -587,8 +581,6 @@ inner-header {
 
 .discount {
     margin-bottom: 10px;
-    font-size: 17px;
-    line-height: 18px;
     font-weight: bold;
     text-decoration: line-through;
     color: #a9a9a9;
@@ -603,7 +595,6 @@ inner-header {
     color: white;
     background-color: #ee3643;
     border-radius: 3px;
-    line-height: 18px;
     font-weight: bold;
 }
 
@@ -617,12 +608,11 @@ inner-header {
     margin: 0;
     padding: 0;
     border: 20px solid white;
-    border-bottom: 21px solid white;
     border-left-color: #ee3643;
 }
 
-.price-without-discount {
-    margin-top: 43px;
+.without-discount {
+    margin-top: 38px;
 }
 
 .image {
@@ -663,17 +653,16 @@ inner-header {
     height: 145px;
 }
 
-.services {
-    padding: 0;
-    padding-top: 65px;
-    padding-bottom: 102px;
+.main-container .services {
+    padding-top: 60px;
+    padding-bottom: 70px;
     background-color: #f4f8f9;
 }
 
 .services h2 {
     margin: 0;
     padding: 0;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
@@ -682,7 +671,7 @@ inner-header {
 
 .services p {
     padding: 0;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     margin: 0;
     width: 360px;
     font-size: 13px;
@@ -703,8 +692,10 @@ inner-header {
     margin: 0;
     padding: 0;
     padding-top: 40px;
-    width: 220px;
-    box-sizing: border-box list-style: none;
+    width: 240px;
+    box-sizing: border-box;
+    list-style: none;
+    box-shadow:
 }
 
 .services-list li {
@@ -712,11 +703,13 @@ inner-header {
     padding-left: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
-    width: 100%;
     padding-left: 20px;
     background-color: #32425c;
-    color: #ffffff;
     border-bottom: 1px solid #4d627b;
+}
+
+.services-list .active-service {
+    background-color: #ffffff;
 }
 
 .services-list a {
@@ -725,13 +718,19 @@ inner-header {
     color: #ffffff;
 }
 
+.active-service > a {
+    color: #32425c;
+}
+
 .services-container {
     display: flex;
 }
 
 .services-wrap {
-    margin-left: 100px;
+    padding-left: 80px;
     padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: -30px 0 30px -40px black;
 }
 
 .services-wrap p {
@@ -747,9 +746,40 @@ inner-header {
     width: 250px;
 }
 
+.delivery {
+    position: relative;
+}
+
 .guarantee,
 .credit {
     display: none;
+    position: relative;
+}
+
+.image-car,
+.image-guarantee,
+.image-credit {
+    position:absolute;
+}
+
+.image-car {
+    bottom:-70px;
+    left:232px;
+    width:468px;
+    height: 261px;
+}
+
+.credit a {
+    display: block;
+    width: 106px;
+    padding: 10px 45px;
+    padding-right: 44px;
+    border-radius: 3px;
+    background-color: #ee3643;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
 }
 
 .index-columns .description {
@@ -1047,6 +1077,7 @@ inner-header {
 }
 
 .pop-up {
+    display: none;
     position: absolute;
     left: 290px;
     top: 2520px;
