@@ -91,122 +91,140 @@
         </section>
         <section class="inner-catalog">
             <h2>ПЕРФОРАТОРЫ</h2>
-            <div class="filter-wrap">
-                <p>ФИЛЬТР</p>
-                <form class="filter-form" method="get" action="!">
-                    <fieldset>
-                        <legend>ЦЕНА:</legend>
-                        <input type="range" min="0" max="30000">
-                        <input type="number" min="0" max="30000" placeholder="0">
-                        <input type="number" min="0" max="30000" placeholder="30000">
-                    </fieldset>
-                    <fieldset>
-                        <legend>Производители:</legend>
-                        <label>BOSCH
-              <input type="checkbox">
-            </label>
-                        <label>Интерскол
-              <input type="checkbox">
-            </label>
-                        <label>Makita
-              <input type="checkbox">
-            </label>
-                        <label>DEWALT
-              <input type="checkbox">
-            </label>
-                        <label>HITACHI
-              <input type="checkbox">
-            </label>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Питание:</legend>
-                        <label>Аккумуляторные
-              <input type="radio">
-            </label>
-                        <label>Интерскол
-              <input type="radio">
-            </label>
-                    </fieldset>
-                    <a class="show-btn" href="#">Показать</a>
-                </form>
-            </div>
+            <div class="catalog-conteiner">
+                <div class="filter-wrap">
+                    <p>ФИЛЬТР:</p>
+                    <form class="filter-form" method="get" action="!">
+                        <fieldset class="cost-fieldset">
+                            <legend class="cost-legend">ЦЕНА:</legend>
+                            <div class="range-container">
+                                <div class="range-wrap">
+                                    <div class="scale">
+                                        <div class="bar"></div>
+                                        <div class="range-toggle range-toggle-min"></div>
+                                        <div class="range-toggle range-toggle-max"></div>
+                                    </div>
+                                    <input type="range" min="0" max="3000" class="range">
+                                </div>
+                            </div>
+                            <div class="cost-control">
+                                <input class="cost-input" type="number" name="min-cost-range" id="min-cost-range" min="0" max="30000" placeholder="0">
+                                <span>—</span>
+                                <input class="cost-input" type="number" name="max-cost-range" id="max-cost-range" min="0" max="3000" placeholder="30000">
+                            </div>
 
-            <div class="products-wrap">
-                <div class="sorting-wrap">
-                    <span>Сортировка:</span>
-                    <a class="by-price-btn">ПО ЦЕНЕ</a>
-                    <a class="by-type-btn">ПО ТИПУ</a>
-                    <a class="by-function-btn">ПО ФУНКЦИОНАЛУ</a>
-                    <a class="arrows arrow-up">стрелка вверх</a>
-                    <a class="arrows arrow-down">стрелка вниз</a>
+                        </fieldset>
+                        <fieldset class="manufacturer-fieldset">
+                            <legend>Производители:</legend>
+                            <ul class="filter-list">
+                                <li>
+                                    <input type="checkbox" id="bosch" class="visually-hidden filter-input-checkbox" checked>
+                                    <label for="bosch">BOSCH  </label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="interskol" class="visually-hidden filter-input-checkbox">
+                                    <label for="interskol">Интерскол  </label>
+                                    <li>
+                                        <input type="checkbox" id="Makita" class="visually-hidden filter-input-checkbox">
+                                        <label for="Makita">Makita   </label></li>
+                                    <li>
+                                        <input type="checkbox" id="DEWALT" class=" filter-input-checkbox disabled">
+                                        <label for="DEWALT">DEWALT   </label></li>
+                                    <li>
+                                        <input type="checkbox" id="HITACHI" class="filter-input-checkbox">
+                                        <label for="HITACHI">HITACHI  </label></li>
+                            </ul>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Питание:</legend>
+                            <label>Аккумуляторные
+              <input type="radio">
+            </label>
+                            <label>Интерскол
+              <input type="radio">
+            </label>
+                        </fieldset>
+                        <a class="show-btn" href="#">Показать</a>
+                    </form>
                 </div>
-                <ul class="products-list">
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                    <li class="product-item">
-                        <div><img src="img/" alt="bosch"></div>
-                        <p class="item-name">Перфоратор</p>
-                        <p class="old-price">22500</p>
-                        <a class="real-price">15500</a>
-                    </li>
-                </ul>
-                <ul class="pages-list">
-                    <li class="page-number">1</li>
-                    <li class="page-number">2</li>
-                    <li class="page-number">3</li>
-                    <li class="page-number">СЛЕДУЮЩАЯ</li>
-                </ul>
+
+                <div class="products-wrap">
+                    <div class="sorting-wrap">
+                        <span>Сортировка:</span>
+                        <a class="by-price-btn">ПО ЦЕНЕ</a>
+                        <a class="by-type-btn">ПО ТИПУ</a>
+                        <a class="by-function-btn">ПО ФУНКЦИОНАЛУ</a>
+                        <a class="arrows arrow-up">стрелка вверх</a>
+                        <a class="arrows arrow-down">стрелка вниз</a>
+                    </div>
+                    <ul class="products-list">
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                        <li class="product-item">
+                            <div><img src="img/" alt="bosch"></div>
+                            <p class="item-name">Перфоратор</p>
+                            <p class="old-price">22500</p>
+                            <a class="real-price">15500</a>
+                        </li>
+                    </ul>
+                    <ul class="pages-list">
+                        <li class="page-number">1</li>
+                        <li class="page-number">2</li>
+                        <li class="page-number">3</li>
+                        <li class="page-number">СЛЕДУЮЩАЯ</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <article class="about-perforator">
             <h3>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h3>
-            <p>perforatorperforatorperforatorperforatorperforatorperforatorperforatorperforatorperforatorperforatorperforatorperforatorperforatorperforatorperforator</p>
+            <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
         </article>
     </main>
 

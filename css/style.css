@@ -1319,40 +1319,234 @@ a {
 }
 
 .container-inner .page-way {
-    padding-left:130px;
-    padding-right:130px;
+    padding-left: 130px;
+    padding-right: 130px;
     padding-top: 20px;
     padding-bottom: 22px;
 }
 
 .page-way span {
     display: inline-block;
-        margin-right:13px;
-    font-size:13px;
-    font-family: "PT sans"; 
+    margin-right: 13px;
+    font-size: 13px;
+    font-family: "PT sans";
     text-transform: uppercase;
     vertical-align: middle;
 }
 
 .page-way span:first-child {
-    margin-right:11px;
+    margin-right: 11px;
 }
 
 .page-way span:nth-child(5) {
-    margin-right:5px;
+    margin-right: 5px;
 }
 
 
 .inner-catalog h2 {
     box-sizing: border-box;
-        width:100%;
-    margin:0;
-    padding:0;
-    padding-left:30px;
-    padding-top:30px;
-    padding-bottom:30px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #f2f6f8;
     font-size: 30px;
     line-height: 30px;
     font-weight: normal;
+}
+
+.catalog-conteiner {
+    display: flex;
+}
+
+.catalog-conteiner fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.filter-form {
+    width: 219px;
+}
+
+
+.filter-wrap p {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    background-color: #f7f3ec;
+    font-family: "PT sans";
+    font-size: 13px;
+}
+
+.products-wrap {
+    width: 700px;
+    margin-left: auto;
+}
+
+.filter-form legend {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: "PT sans";
+    text-transform: uppercase;
+}
+
+.cost-control {
+    width: 221px;
+    height: 32px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 0;
+}
+
+.cost-control input[type="number"] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f7f3ec;
+    font-size: 17px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.cost-control span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.range-container {
+    width: 180px;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    padding-top: 39px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f7f3ec;
+    border-radius: 3px;
+}
+
+.range-wrap {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+.range-wrap input[type="range"] {
+    position: relative;
+    z-index: -10;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.range-wrap .scale {
+    width: 180px;
+    height: 2px;
+    background-color: #d7dcde;
+}
+
+.range-wrap .bar {
+    width: 150px;
+    height: 2px;
+    background: #00ca74;
+}
+
+.range-toggle {
+    position: absolute;
+    top: -9px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    background: #ababab;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    cursor: pointer;
+}
+
+.range-toggle:hover {
+    width: 22px;
+    height: 22px;
+    border-width: 9px;
+}
+
+.range-toggle-min {
+    left: 0;
+}
+
+.range-toggle-max {
+    left: 140px;
+}
+
+.catalog-conteiner .manufacturer-fieldset {
+    border-bottom:1px solid #e5e5e5;
+}
+
+.catalog-conteiner .cost-fieldset {
+    padding-bottom:25px;
+    margin-bottom:25px;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.manufacturer-fieldset .filter-list {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.filter-wrap .filter-input-checkbox {
+	display: none;
+}
+
+.filter-wrap input[type="checkbox"] + label {
+	display: block;
+	margin: 0;
+	min-height: 23px;
+	padding-left: 40px;
+	padding-top: 2px;
+	background: url("../img/checkbox-off.svg");
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+	background: url("../img/checkbox-on.svg");
+	background-position: 0 50%;
+	background-repeat: no-repeat;
 }
