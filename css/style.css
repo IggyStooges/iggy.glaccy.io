@@ -303,15 +303,20 @@ a {
     color: #ffffff;
 }
 
-.main-container {
+.main-container,
+.container-inner {
     display: block;
     padding: 0;
     margin: 0;
-    margin-top: 59px;
     background-color: #ffffff;
 }
 
-.main-container section {
+.main-container {
+    margin-top: 59px;
+}
+
+.main-container section,
+.container-inner section {
     margin: 0;
     padding: 0;
     padding-left: 130px;
@@ -1311,4 +1316,43 @@ a {
 
 .map-up-close::after {
     transform: rotate(-45deg);
+}
+
+.container-inner .page-way {
+    padding-left:130px;
+    padding-right:130px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.page-way span {
+    display: inline-block;
+        margin-right:13px;
+    font-size:13px;
+    font-family: "PT sans"; 
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.page-way span:first-child {
+    margin-right:11px;
+}
+
+.page-way span:nth-child(5) {
+    margin-right:5px;
+}
+
+
+.inner-catalog h2 {
+    box-sizing: border-box;
+        width:100%;
+    margin:0;
+    padding:0;
+    padding-left:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color: #f2f6f8;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
 }
