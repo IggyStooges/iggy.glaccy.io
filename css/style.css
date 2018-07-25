@@ -613,7 +613,8 @@ a {
     padding-left: 70px;
 }
 
-.items-list {
+.items-list,
+.products-list {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -622,7 +623,8 @@ a {
     list-style: none;
 }
 
-.items-list li {
+.items-list li,
+.products-list li{
     position: relative;
     width: 218px;
     margin-bottom: 20px;
@@ -1400,7 +1402,7 @@ a {
 }
 
 .cost-control {
-    width: 221px;
+    width: 220px;
     height: 32px;
     margin-top: 10px;
     border-radius: 3px;
@@ -1436,6 +1438,7 @@ input::-webkit-inner-spin-button {
 .cost-control span {
     display: inline-block;
     vertical-align: middle;
+  width:20px;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 16px;
@@ -1528,7 +1531,8 @@ input::-webkit-inner-spin-button {
     padding:0;
 }
 
-.filter-wrap .filter-input-checkbox {
+.filter-wrap .filter-input-checkbox,
+.filter-wrap .filter-input-radio {
 	display: none;
 }
 
@@ -1545,8 +1549,30 @@ input::-webkit-inner-spin-button {
 	cursor: pointer;
 }
 
-input[type="checkbox"]:checked + label {
+
+.filter-wrap input[type="radio"] + label {
+	display: block;
+	margin: 0;
+	min-height: 23px;
+	padding-left: 40px;
+	padding-top: 2px;
+	background: url("../img/radio-off.svg");
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.filter-wrap input[type="checkbox"]:checked + label{
 	background: url("../img/checkbox-on.svg");
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 }
+
+.filter-wrap input[type="radio"]:checked + label{
+	background: url("../img/radio-on.svg");
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+}
+
+
