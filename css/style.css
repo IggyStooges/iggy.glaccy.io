@@ -1569,10 +1569,8 @@ input::-webkit-inner-spin-button {
 	background-repeat: no-repeat;
 }
 
-.filter-wrap input[type="radio"]:checked + label{
+input[type="radio"]:checked + label{
 	background: url("../img/radio-on.svg");
 	background-position: 0 50%;
 	background-repeat: no-repeat;
 }
-
-
