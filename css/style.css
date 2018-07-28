@@ -151,6 +151,29 @@ a {
     opacity: 0.5;
 }
 
+.full-basket a {
+     background-color: #ee3643;
+    opacity:1;
+}
+
+.full-basket a:hover {
+     background-color: #ee3643;
+        opacity:1;
+}
+
+.full-basket a:hover > svg {
+    opacity: 0.3;
+}
+
+.full-basket a:active {
+     background-color: #ee3643;
+        opacity:1;
+}
+
+.full-basket a:active > svg {
+    opacity: 0.3;
+}
+
 .new-order a:active {
     opacity: 0.5;
     background-color: #518534;
@@ -168,10 +191,6 @@ a {
 
 .header-hat input[type="search"]:focus + svg > path {
     fill: #ee3643;
-}
-
-.full-basket {
-    background-color: #ee3643;
 }
 
 .header-hat svg {
@@ -329,6 +348,11 @@ a {
     margin-right: 10px;
 }
 
+.link-login:hover path,
+.link-logout:hover path {
+    fill:#32425c;
+}
+
 .user-profile .link-logout {
     margin-left: 30px;
 }
@@ -344,6 +368,14 @@ a {
     font-size: 16px;
     text-decoration: underline;
     color: #32425c;
+}
+.user-links a:hover {
+    color: #ee3643;
+}
+
+.user-links a:active {
+    color: #32425c;
+    opacity: 0.3;
 }
 
 .my-orders::after {
@@ -405,7 +437,7 @@ a {
 }
 
 .site-navigation a:active > span {
-    opacity:0.5;
+    opacity: 0.5;
 }
 
 .site-navigation li:first-child {
@@ -561,6 +593,17 @@ a {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+
+.offers-list a:hover,
+.features-list a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.offers-list a:active,
+.features-list a:active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .features-list li:nth-child(2) > a {
     padding-left: 35px;
 }
@@ -712,7 +755,14 @@ a {
     font-size: 14px;
     line-height: 18px;
     color: #ffffff;
+}
 
+.open-catalog-btn:hover {
+    background-color: #ca2c37;
+}
+
+.open-catalog-btn:active {
+    background-color: #ba2732;
 }
 
 .popular-wrap {
@@ -776,6 +826,12 @@ a {
     border: 1px solid #eaeaea;
     font-weight: bold;
     text-align: center;
+}
+
+.items-list li:hover > .actions {
+    position: absolute;
+    z-index: 1000;
+    display: block;
 }
 
 .actions {
@@ -847,14 +903,28 @@ a {
     list-style: none;
 }
 
-.manufacturers-list li {
+.manufacturers-list a {
+    display: block;
     margin-bottom: 20px;
+    z-index: 1000;
     width: 220px;
     height: 145px;
     box-sizing: border-box;
     border: 1px solid #eaeaea;
     font-weight: bold;
     text-align: center;
+}
+
+
+.manufacturers-list a:hover {
+    border: none;
+    box-shadow: 0 0 25px 5px #cccfd4;
+}
+
+.manufacturers-list a:active {
+    border: none;
+    box-shadow: 0 0 5px 5px #cccfd4;
+    opacity: 0.3;
 }
 
 .manufacturers-image {
@@ -883,11 +953,10 @@ a {
 }
 
 .services p {
+    width: 360px;
     padding: 0;
     margin: 0;
-
     padding-bottom: 25px;
-    width: 360px;
     font-size: 13px;
     line-height: 24px;
 }
@@ -913,7 +982,8 @@ a {
     box-shadow:
 }
 
-.services-list li {
+.services-list a {
+    display: block;
     margin: 0;
     padding-left: 20px;
     padding-top: 15px;
@@ -921,10 +991,6 @@ a {
     padding-left: 20px;
     background-color: #32425c;
     border-bottom: 1px solid #4d627b;
-}
-
-.services-list .active-service {
-    background-color: #ffffff;
 }
 
 .services-list a {
@@ -935,6 +1001,16 @@ a {
 
 .active-service > a {
     color: #32425c;
+    background-color: #ffffff;
+}
+
+.services-list a:hover {
+    background-color: #293449
+}
+
+.active-service > a:hover {
+    color: #32425c;
+    background-color: #ffffff;
 }
 
 .services-container {
@@ -1169,15 +1245,32 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: auto;
-    list-style: none;
     width: 550px;
     margin: 0;
+    margin-left: auto;
     padding: 0;
+    list-style: none;
 }
 
-.footer-hat li {
-    padding-top: 40px;
+.footer-hat .footer-navigation-list {
+    margin-top: 40px;
+}
+
+.footer-navigation-list a:hover,
+.catalog-list a:hover,
+.communications a:hover{
+    text-decoration: underline;
+}
+
+.footer-navigation-list a:active,
+.catalog-list a:active {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.communications a:active{
+    text-decoration: none;
+    color:#ee3643;
 }
 
 .footer-hat-top {
@@ -1303,15 +1396,10 @@ a {
 
 .social-button:hover,
 .social-button:focus {
-    background-color: rgb(102, 158, 192);
-}
+background-color: #ee3643;}
 
 .social-button:active {
-    background-color: #5496bd;
-}
-
-.social-button:active path {
-    opacity: 0.3;
+    background-color: #ee3643;
 }
 
 .pop-up {
