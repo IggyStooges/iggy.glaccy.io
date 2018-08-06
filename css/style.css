@@ -663,9 +663,17 @@ a {
 }
 
 .slider-perforator {
-    display: none;
+    height: 100%;
     background-image: url('../img/slider1.jpg');
     background-repeat: no-repeat;
+}
+
+.active-slider {
+    display: block;
+}
+
+.disactive-slider {
+    display: none;
 }
 
 .main-container .features {
@@ -710,6 +718,7 @@ a {
     border: none;
     transform: translateY(-50%);
     background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
 }
 
 .slider-btn::after {
@@ -903,14 +912,14 @@ a {
     text-transform: uppercase;
 }
 
-.actions .to-bookmark:hover{
-    color:#32425c;
-    border-color:#32425c;
+.actions .to-bookmark:hover {
+    color: #32425c;
+    border-color: #32425c;
 }
 
-.actions .to-bookmark:active{
-    color:#32425c;
-    border-color:#32425c;
+.actions .to-bookmark:active {
+    color: #32425c;
+    border-color: #32425c;
     opacity: 0.3;
 }
 
@@ -2002,13 +2011,13 @@ input[type="radio"]:disabled + label {
 .sorting-btn-wrap .active {
     color: #ee3643;
     border: none;
-    opacity:1;
+    opacity: 1;
 }
 
 .sorting-button:hover {
-    opacity:1;
+    opacity: 1;
     border-bottom: 1px solid #ee3643;
-    color:#000000;
+    color: #000000;
 }
 
 .arrows-wrap .arrow-up {
@@ -2024,7 +2033,7 @@ input[type="radio"]:disabled + label {
     fill: #ee3643;
 }
 
-.arrow:hover path{
+.arrow:hover path {
     opacity: 1;
     fill: #000000;
 }
@@ -2050,8 +2059,8 @@ input[type="radio"]:disabled + label {
 .pages-list a {
     display: inline-block;
     vertical-align: middle;
-        border: 1px solid #e5e5e5;
-        border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
     color: #000000;
     padding: 10px 15px;
 }
@@ -2068,7 +2077,7 @@ input[type="radio"]:disabled + label {
 .page-next a:hover,
 .page-number a:hover,
 .page-next a:focus,
-.page-number a:focus{
+.page-number a:focus {
     border-color: #bdc6ca;
 }
 
@@ -2079,7 +2088,7 @@ input[type="radio"]:disabled + label {
 
 .active-number a,
 .active-number a:hover,
-.active-number a:active{
+.active-number a:active {
     background-color: #ee3643;
     border-color: #ee3643;
     color: #ffffff;
